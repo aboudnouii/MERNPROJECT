@@ -1,7 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-
-const TRACK_API = "http://localhost:5000/api/repairs/track";
+import { TRACK_API } from "../apiConfig";
 
 function getDaysInGarage(repair) {
   const start = new Date(repair.createdAt);

@@ -32,6 +32,21 @@ MONGO_URI=mongodb://localhost:27017/repairmanager
 JWT_SECRET=change_this_to_a_long_random_secret
 ```
 
+For Render, use:
+
+```text
+Root Directory: backend
+Build Command: npm install
+Start Command: npm start
+```
+
+Set these Render environment variables:
+
+```env
+MONGO_URI=mongodb+srv://<username>:<password>@<cluster-url>/repairmanager?retryWrites=true&w=majority&appName=Cluster0
+JWT_SECRET=change_this_to_a_long_random_secret
+```
+
 ## Frontend Setup
 
 ```bash
@@ -47,3 +62,16 @@ Open:
 http://localhost:3000
 ```
 
+For Vercel, use:
+
+```text
+Root Directory: frontend
+Build Command: npm run build
+Output Directory: build
+```
+
+Set this Vercel environment variable:
+
+```env
+REACT_APP_API_URL=https://mernproject-12kg.onrender.com/api
+```

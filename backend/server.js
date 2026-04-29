@@ -10,8 +10,6 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/repairmanager";
-//const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://nabdellah12_db_user:hoigN99sQVMeGGGg@cluster0.rbhksiz.mongodb.net/repair-manager?retryWrites=true&w=majority&appName=Cluster0";
-//const MONGO_URI = process.env.MONGO_URI;
 
 app.use(cors());
 app.use(express.json());

@@ -4,9 +4,7 @@ import RepairForm from "./components/RepairForm";
 import RepairList from "./components/RepairList";
 import AuthForm from "./components/AuthForm";
 import CustomerTrack from "./components/CustomerTrack";
-
-const REPAIRS_API = "http://localhost:5000/api/repairs";
-const AUTH_API = "http://localhost:5000/api/auth";
+import { AUTH_API, REPAIRS_API } from "./apiConfig";
 
 const tabs = [
   {
