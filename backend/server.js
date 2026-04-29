@@ -10,9 +10,44 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/repairmanager";
-const CLIENT_URL = process.env.CLIENT_URL || "https://mernproject-lb9oq98wb-ibnbiskra-8184s-projects.vercel.app";
+const DEFAULT_CLIENT_URLS = [
+  "http://localhost:3000",
+  "https://mernproject-ibnbiskra-8184s-projects.vercel.app",
+  "https://mernproject-lb9oq98wb-ibnbiskra-8184s-projects.vercel.app",
+];
 
-app.use(cors({ origin: CLIENT_URL, credentials: true }));
+const allowedClientUrls = new Set(
+  (process.env.CLIENT_URLS || process.env.CLIENT_URL || DEFAULT_CLIENT_URLS.join(","))
+    .split(",")
+    .map((url) => url.trim().replace(/\/+$/, ""))
+    .filter(Boolean)
+);
+
+function isAllowedVercelPreview(origin) {
+  try {
+    const { hostname } = new URL(origin);
+    return /^mernproject(-[a-z0-9]+)?-ibnbiskra-8184s-projects\.vercel\.app$/.test(hostname);
+  } catch {
+    return false;
+  }
+}
+
+app.use(
+  cors({
+    origin(origin, callback) {
+      if (!origin) {
+        return callback(null, true);
+      }
+
+      const cleanOrigin = origin.replace(/\/+$/, "");
+      if (allowedClientUrls.has(cleanOrigin) || isAllowedVercelPreview(cleanOrigin)) {
+        return callback(null, true);
+      }
+
+      return callback(new Error(`Origin ${origin} is not allowed by CORS`));
+    },
+  })
+);
 app.use(express.json());
 
 app.get("/", (req, res) => {
