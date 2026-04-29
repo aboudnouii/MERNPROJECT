@@ -45,7 +45,12 @@ Set these Render environment variables:
 ```env
 MONGO_URI=mongodb+srv://<username>:<password>@<cluster-url>/repairmanager?retryWrites=true&w=majority&appName=Cluster0
 JWT_SECRET=change_this_to_a_long_random_secret
+CLIENT_URL=https://mernproject-lb9oq98wb-ibnbiskra-8184s-projects.vercel.app
 ```
+
+If Render exits after `node server.js`, open MongoDB Atlas, go to Network Access,
+and allow Render to connect. For a test/free setup, add `0.0.0.0/0`. For a
+production setup, use a fixed outbound IP or tighter allowlist.
 
 ## Frontend Setup
 

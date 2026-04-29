@@ -10,12 +10,20 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/repairmanager";
+const CLIENT_URL = process.env.CLIENT_URL || "https://mernproject-lb9oq98wb-ibnbiskra-8184s-projects.vercel.app";
 
-app.use(cors());
+app.use(cors({ origin: CLIENT_URL, credentials: true }));
 app.use(express.json());
 
 app.get("/", (req, res) => {
   res.send("Repair Manager API is running");
+});
+
+app.get("/health", (req, res) => {
+  res.json({
+    status: "ok",
+    database: mongoose.connection.readyState === 1 ? "connected" : "disconnected",
+  });
 });
 
 app.use("/api/auth", authRoutes);
@@ -31,7 +39,7 @@ app.use((err, req, res, next) => {
 });
 
 mongoose
-  .connect(MONGO_URI)
+  .connect(MONGO_URI, { serverSelectionTimeoutMS: 10000 })
   .then(() => {
     console.log("MongoDB connected");
     app.listen(PORT, () => {
@@ -40,5 +48,8 @@ mongoose
   })
   .catch((err) => {
     console.error("MongoDB connection error:", err.message);
+    if (err.reason) {
+      console.error("MongoDB connection reason:", err.reason);
+    }
     process.exit(1);
   });
