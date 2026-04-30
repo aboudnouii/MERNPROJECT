@@ -1,0 +1,4715 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/c0lldv",
+    "id": "c0lldv",
+    "slide": 5,
+    "layoutId": "9594e98a-c731-4fd9-8a27-6976eeb92c8d",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d1d9a579-ab40-4347-8302-d2a3a1b1d825",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "9594e98a-c731-4fd9-8a27-6976eeb92c8d",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d1d9a579-ab40-4347-8302-d2a3a1b1d825",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d1d9a579-ab40-4347-8302-d2a3a1b1d825",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dg7adsji",
+      "id": "1",
+      "name": "slide-background",
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#080A0F",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tovahoz",
+      "id": "2",
+      "name": "slide-title",
+      "bbox": [
+        72,
+        58,
+        1776,
+        54
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.0"
+      },
+      "geometry": "rect",
+      "text": "Backend API and authentication",
+      "textPreview": "Backend API and authentication",
+      "resolvedFontSize": 54,
+      "resolvedTextStyle": {
+        "fontSize": 54,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Backend API and authentication"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Backend API and authentication",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Backend API and authentication",
+              "fontSize": 54,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vahoza1g",
+      "id": "3",
+      "name": "slide-subtitle",
+      "bbox": [
+        72,
+        124,
+        1776,
+        24
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.1"
+      },
+      "geometry": "rect",
+      "text": "Express routes separate public tracking from private staff operations, then use JWT middleware to protect repair data.",
+      "textPreview": "Express routes separate public tracking from private staff operations, then use JWT middleware to protect repair data.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Express routes separate public tracking from private staff operations, then use JWT middleware to protect repair data."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Express routes separate public tracking from private staff operations, then use JWT middleware to protect repair data.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Express routes separate public tracking from private staff operations, then use JWT middleware to protect repair data.",
+              "fontSize": 24,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onyd0z61",
+      "id": "4",
+      "name": "jwt-flow",
+      "bbox": [
+        72,
+        182,
+        801.32,
+        245
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#0F1117",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8v6psfi",
+      "id": "5",
+      "bbox": [
+        98,
+        206,
+        750,
+        36
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.0.0"
+      },
+      "geometry": "rect",
+      "text": "JWT login flow",
+      "textPreview": "JWT login flow",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "fontSize": 36,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "JWT login flow"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "JWT login flow",
+          "runs": [
+            {
+              "index": 1,
+              "text": "JWT login flow",
+              "fontSize": 36,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hcrmhk3",
+      "id": "6",
+      "bbox": [
+        98,
+        254,
+        750,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.0.1"
+      },
+      "geometry": "rect",
+      "text": "1. Staff submits credentials",
+      "textPreview": "1. Staff submits credentials",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. Staff submits credentials"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1. Staff submits credentials",
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. Staff submits credentials",
+              "fontSize": 22,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z25kb6xk",
+      "id": "7",
+      "bbox": [
+        98,
+        288,
+        750,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.0.2"
+      },
+      "geometry": "rect",
+      "text": "2. Backend verifies bcrypt hash",
+      "textPreview": "2. Backend verifies bcrypt hash",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2. Backend verifies bcrypt hash"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2. Backend verifies bcrypt hash",
+          "runs": [
+            {
+              "index": 1,
+              "text": "2. Backend verifies bcrypt hash",
+              "fontSize": 22,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oj2t83it",
+      "id": "8",
+      "bbox": [
+        98,
+        322,
+        750,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.0.3"
+      },
+      "geometry": "rect",
+      "text": "3. API returns a 7-day token",
+      "textPreview": "3. API returns a 7-day token",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3. API returns a 7-day token"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3. API returns a 7-day token",
+          "runs": [
+            {
+              "index": 1,
+              "text": "3. API returns a 7-day token",
+              "fontSize": 22,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d4vmtwra",
+      "id": "9",
+      "bbox": [
+        98,
+        356,
+        750,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.0.4"
+      },
+      "geometry": "rect",
+      "text": "4. Frontend sends Bearer token on private repair requests",
+      "textPreview": "4. Frontend sends Bearer token on private repair requests",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4. Frontend sends Bearer token on private repair requests"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4. Frontend sends Bearer token on private repair requests",
+          "runs": [
+            {
+              "index": 1,
+              "text": "4. Frontend sends Bearer token on private repair requests",
+              "fontSize": 22,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4byhgn2",
+      "id": "10",
+      "name": "protected-note",
+      "bbox": [
+        72,
+        445,
+        801.32,
+        250
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.1"
+      },
+      "geometry": "roundRect",
+      "fillColor": "rgba(245, 158, 11, 0.16)",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sji5snel",
+      "id": "11",
+      "bbox": [
+        98,
+        470,
+        750,
+        56
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.1.0"
+      },
+      "geometry": "rect",
+      "text": "The protect middleware verifies the token, loads the user, and rejects missing or invalid credentials with 401 responses.",
+      "textPreview": "The protect middleware verifies the token, loads the user, and rejects missing or invalid credentials with 401 responses.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The protect middleware verifies the token, loads the user, and"
+          },
+          {
+            "index": 2,
+            "text": "rejects missing or invalid credentials with 401 responses."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The protect middleware verifies the token, loads the user, and rejects missing or invalid credentials with 401 responses.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "The protect middleware verifies the token, loads the user, and rejects missing or invalid credentials with 401 responses.",
+              "fontSize": 28,
+              "color": "#F1F5F9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ylc7u54",
+      "id": "12",
+      "name": "routes-table",
+      "bbox": [
+        907.32,
+        182,
+        940.68,
+        792
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#0F1117",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adsji5sn",
+      "id": "13",
+      "bbox": [
+        932,
+        204,
+        892,
+        34
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.0"
+      },
+      "geometry": "rect",
+      "text": "Routes implemented",
+      "textPreview": "Routes implemented",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "fontSize": 34,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Routes implemented"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Routes implemented",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Routes implemented",
+              "fontSize": 34,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lszqtcj6",
+      "id": "14",
+      "bbox": [
+        931.32,
+        249,
+        82,
+        48
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.1.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "rgba(245, 158, 11, 0.16)",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s72x4nap",
+      "id": "15",
+      "bbox": [
+        942,
+        262,
+        62,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.1.0.0"
+      },
+      "geometry": "rect",
+      "text": "POST",
+      "textPreview": "POST",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "POST"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "POST",
+          "runs": [
+            {
+              "index": 1,
+              "text": "POST",
+              "fontSize": 15,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3m94fu18",
+      "id": "16",
+      "bbox": [
+        1028,
+        250,
+        796,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.1.1"
+      },
+      "geometry": "rect",
+      "text": "/api/auth/signup",
+      "textPreview": "/api/auth/signup",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "/api/auth/signup"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "/api/auth/signup",
+          "runs": [
+            {
+              "index": 1,
+              "text": "/api/auth/signup",
+              "fontSize": 19,
+              "color": "#F1F5F9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5gbq1or",
+      "id": "17",
+      "bbox": [
+        931.32,
+        308,
+        82,
+        48
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.2.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "rgba(245, 158, 11, 0.16)",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hoza1gvy",
+      "id": "18",
+      "bbox": [
+        942,
+        320,
+        62,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.2.0.0"
+      },
+      "geometry": "rect",
+      "text": "POST",
+      "textPreview": "POST",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "POST"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "POST",
+          "runs": [
+            {
+              "index": 1,
+              "text": "POST",
+              "fontSize": 15,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s36hcrmh",
+      "id": "19",
+      "bbox": [
+        1028,
+        308,
+        796,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.2.1"
+      },
+      "geometry": "rect",
+      "text": "/api/auth/login",
+      "textPreview": "/api/auth/login",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "/api/auth/login"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "/api/auth/login",
+          "runs": [
+            {
+              "index": 1,
+              "text": "/api/auth/login",
+              "fontSize": 19,
+              "color": "#F1F5F9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4zidonyd",
+      "id": "20",
+      "bbox": [
+        931.32,
+        367,
+        82,
+        48
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.3.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "rgba(245, 158, 11, 0.16)",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkf6dcbu",
+      "id": "21",
+      "bbox": [
+        942,
+        380,
+        62,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.3.0.0"
+      },
+      "geometry": "rect",
+      "text": "GET",
+      "textPreview": "GET",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GET"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GET",
+          "runs": [
+            {
+              "index": 1,
+              "text": "GET",
+              "fontSize": 15,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mtwra5gb",
+      "id": "22",
+      "bbox": [
+        1028,
+        368,
+        796,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.3.1"
+      },
+      "geometry": "rect",
+      "text": "/api/auth/me",
+      "textPreview": "/api/auth/me",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "/api/auth/me"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "/api/auth/me",
+          "runs": [
+            {
+              "index": 1,
+              "text": "/api/auth/me",
+              "fontSize": 19,
+              "color": "#F1F5F9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fepkzupw",
+      "id": "23",
+      "bbox": [
+        931.32,
+        426,
+        82,
+        48
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.4.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "rgba(16, 185, 129, 0.16)",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4r65wjud",
+      "id": "24",
+      "bbox": [
+        942,
+        438,
+        62,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.4.0.0"
+      },
+      "geometry": "rect",
+      "text": "GET",
+      "textPreview": "GET",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GET"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GET",
+          "runs": [
+            {
+              "index": 1,
+              "text": "GET",
+              "fontSize": 15,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc3ylc7u",
+      "id": "25",
+      "bbox": [
+        1028,
+        426,
+        796,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.4.1"
+      },
+      "geometry": "rect",
+      "text": "/api/repairs/track/:code",
+      "textPreview": "/api/repairs/track/:code",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "/api/repairs/track/:code"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "/api/repairs/track/:code",
+          "runs": [
+            {
+              "index": 1,
+              "text": "/api/repairs/track/:code",
+              "fontSize": 19,
+              "color": "#F1F5F9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mlkjm1cf",
+      "id": "26",
+      "bbox": [
+        931.32,
+        485,
+        82,
+        48
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.5.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "rgba(59, 130, 246, 0.16)",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f6dcbulw",
+      "id": "27",
+      "bbox": [
+        942,
+        498,
+        62,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.5.0.0"
+      },
+      "geometry": "rect",
+      "text": "POST",
+      "textPreview": "POST",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "POST"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "POST",
+          "runs": [
+            {
+              "index": 1,
+              "text": "POST",
+              "fontSize": 15,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4fu18jqh",
+      "id": "28",
+      "bbox": [
+        1028,
+        486,
+        796,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.5.1"
+      },
+      "geometry": "rect",
+      "text": "/api/repairs",
+      "textPreview": "/api/repairs",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "/api/repairs"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "/api/repairs",
+          "runs": [
+            {
+              "index": 1,
+              "text": "/api/repairs",
+              "fontSize": 19,
+              "color": "#F1F5F9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0nuxc3y",
+      "id": "29",
+      "bbox": [
+        931.32,
+        544,
+        82,
+        48
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.6.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "rgba(59, 130, 246, 0.16)",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nuxc3ylc",
+      "id": "30",
+      "bbox": [
+        942,
+        556,
+        62,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.6.0.0"
+      },
+      "geometry": "rect",
+      "text": "GET",
+      "textPreview": "GET",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GET"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GET",
+          "runs": [
+            {
+              "index": 1,
+              "text": "GET",
+              "fontSize": 15,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y90je9cv",
+      "id": "31",
+      "bbox": [
+        1028,
+        544,
+        796,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.6.1"
+      },
+      "geometry": "rect",
+      "text": "/api/repairs",
+      "textPreview": "/api/repairs",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "/api/repairs"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "/api/repairs",
+          "runs": [
+            {
+              "index": 1,
+              "text": "/api/repairs",
+              "fontSize": 19,
+              "color": "#F1F5F9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5wjudg7a",
+      "id": "32",
+      "bbox": [
+        931.32,
+        603,
+        82,
+        48
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.7.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "rgba(59, 130, 246, 0.16)",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gbq1oryt",
+      "id": "33",
+      "bbox": [
+        942,
+        616,
+        62,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.7.0.0"
+      },
+      "geometry": "rect",
+      "text": "PUT",
+      "textPreview": "PUT",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PUT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PUT",
+          "runs": [
+            {
+              "index": 1,
+              "text": "PUT",
+              "fontSize": 15,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n29gr2p8",
+      "id": "34",
+      "bbox": [
+        1028,
+        604,
+        796,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.7.1"
+      },
+      "geometry": "rect",
+      "text": "/api/repairs/:id",
+      "textPreview": "/api/repairs/:id",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "/api/repairs/:id"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "/api/repairs/:id",
+          "runs": [
+            {
+              "index": 1,
+              "text": "/api/repairs/:id",
+              "fontSize": 19,
+              "color": "#F1F5F9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhgn29gr",
+      "id": "35",
+      "bbox": [
+        931.32,
+        662,
+        82,
+        48
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.8.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "rgba(239, 68, 68, 0.14)",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/58z25kb6",
+      "id": "36",
+      "bbox": [
+        942,
+        674,
+        62,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.8.0.0"
+      },
+      "geometry": "rect",
+      "text": "DELETE",
+      "textPreview": "DELETE",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DELETE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DELETE",
+          "runs": [
+            {
+              "index": 1,
+              "text": "DELETE",
+              "fontSize": 15,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gn29gr2p",
+      "id": "37",
+      "bbox": [
+        1028,
+        662,
+        796,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.8.1"
+      },
+      "geometry": "rect",
+      "text": "/api/repairs/:id",
+      "textPreview": "/api/repairs/:id",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "/api/repairs/:id"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "/api/repairs/:id",
+          "runs": [
+            {
+              "index": 1,
+              "text": "/api/repairs/:id",
+              "fontSize": 19,
+              "color": "#F1F5F9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/neloj2t8",
+      "id": "38",
+      "bbox": [
+        931.32,
+        721,
+        82,
+        48
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.9.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "rgba(59, 130, 246, 0.16)",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 39,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ytsvu9kn",
+      "id": "39",
+      "bbox": [
+        942,
+        734,
+        62,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.9.0.0"
+      },
+      "geometry": "rect",
+      "text": "PATCH",
+      "textPreview": "PATCH",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PATCH"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PATCH",
+          "runs": [
+            {
+              "index": 1,
+              "text": "PATCH",
+              "fontSize": 15,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 40,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5o7qpg3",
+      "id": "40",
+      "bbox": [
+        1028,
+        722,
+        796,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.9.1"
+      },
+      "geometry": "rect",
+      "text": "/api/repairs/:id/complete",
+      "textPreview": "/api/repairs/:id/complete",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "/api/repairs/:id/complete"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "/api/repairs/:id/complete",
+          "runs": [
+            {
+              "index": 1,
+              "text": "/api/repairs/:id/complete",
+              "fontSize": 19,
+              "color": "#F1F5F9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 41,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jqh0fepk",
+      "id": "41",
+      "name": "footer-left",
+      "bbox": [
+        72,
+        1008,
+        1682,
+        14
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.2.0"
+      },
+      "geometry": "rect",
+      "text": "Repair Manager website report",
+      "textPreview": "Repair Manager website report",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Repair Manager website report"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Repair Manager website report",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Repair Manager website report",
+              "fontSize": 14,
+              "color": "#64748B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 42,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bat47y1",
+      "id": "42",
+      "name": "footer-page",
+      "bbox": [
+        1778,
+        1008,
+        70,
+        14
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.2.1"
+      },
+      "geometry": "rect",
+      "text": "5/10",
+      "textPreview": "5/10",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5/10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5/10",
+          "runs": [
+            {
+              "index": 1,
+              "text": "5/10",
+              "fontSize": 14,
+              "color": "#64748B"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "baseUnit": 8,
+      "root": {
+        "path": "0",
+        "kind": "panel",
+        "name": "slide-background",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 144,
+          "height": 116
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "snappedFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "column",
+            "name": "slide-root",
+            "requestedSize": {
+              "width": {
+                "mode": "fill",
+                "value": 1
+              },
+              "height": {
+                "mode": "fill",
+                "value": 1
+              }
+            },
+            "intrinsicSize": {
+              "width": 0,
+              "height": 172
+            },
+            "frame": {
+              "left": 72,
+              "top": 58,
+              "width": 1776,
+              "height": 964
+            },
+            "children": [
+              {
+                "path": "0.0.0",
+                "kind": "column",
+                "name": "title-stack",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 0,
+                  "height": 90
+                },
+                "frame": {
+                  "left": 72,
+                  "top": 58,
+                  "width": 1776,
+                  "height": 90
+                },
+                "children": [
+                  {
+                    "path": "0.0.0.0",
+                    "kind": "text",
+                    "name": "slide-title",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 54
+                    },
+                    "frame": {
+                      "left": 72,
+                      "top": 58,
+                      "width": 1776,
+                      "height": 54
+                    },
+                    "snappedFrame": {
+                      "left": 72,
+                      "top": 58,
+                      "width": 1776,
+                      "height": 54
+                    },
+                    "children": [],
+                    "text": "Backend API and authentication",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/6tovahoz",
+                      "id": "2",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.0.1",
+                    "kind": "text",
+                    "name": "slide-subtitle",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 24
+                    },
+                    "frame": {
+                      "left": 72,
+                      "top": 124,
+                      "width": 1776,
+                      "height": 24
+                    },
+                    "snappedFrame": {
+                      "left": 72,
+                      "top": 124,
+                      "width": 1776,
+                      "height": 24
+                    },
+                    "children": [],
+                    "text": "Express routes separate public tracking from private staff operations, then use JWT middleware to protect repair data.",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/vahoza1g",
+                      "id": "3",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 12,
+                "effectiveGap": 12,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 72,
+                  "top": 58,
+                  "width": 1776,
+                  "height": 90
+                },
+                "items": [
+                  {
+                    "path": "0.0.0.0",
+                    "frame": {
+                      "left": 72,
+                      "top": 58,
+                      "width": 1776,
+                      "height": 54
+                    }
+                  },
+                  {
+                    "path": "0.0.0.1",
+                    "frame": {
+                      "left": 72,
+                      "top": 124,
+                      "width": 1776,
+                      "height": 24
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.0.1",
+                "kind": "grid",
+                "name": "backend-grid",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "fill",
+                    "value": 1
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 34,
+                  "height": 0
+                },
+                "frame": {
+                  "left": 72,
+                  "top": 182,
+                  "width": 1776,
+                  "height": 792
+                },
+                "children": [
+                  {
+                    "path": "0.0.1.0",
+                    "kind": "column",
+                    "name": "backend-left",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "fill",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 513
+                    },
+                    "frame": {
+                      "left": 72,
+                      "top": 182,
+                      "width": 801.32,
+                      "height": 792
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.0.0",
+                        "kind": "panel",
+                        "name": "jwt-flow",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "fixed",
+                            "value": 245
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 52,
+                          "height": 48
+                        },
+                        "frame": {
+                          "left": 72,
+                          "top": 182,
+                          "width": 801.32,
+                          "height": 245
+                        },
+                        "snappedFrame": {
+                          "left": 72,
+                          "top": 182,
+                          "width": 801.32,
+                          "height": 245
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.0.0.0",
+                            "kind": "column",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fill",
+                                "value": 1
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 172
+                            },
+                            "frame": {
+                              "left": 98,
+                              "top": 206,
+                              "width": 749.32,
+                              "height": 197
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.0.0.0.0",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 36
+                                },
+                                "frame": {
+                                  "left": 98,
+                                  "top": 206,
+                                  "width": 749.32,
+                                  "height": 36
+                                },
+                                "snappedFrame": {
+                                  "left": 98,
+                                  "top": 206,
+                                  "width": 750,
+                                  "height": 36
+                                },
+                                "children": [],
+                                "text": "JWT login flow",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/d8v6psfi",
+                                  "id": "5",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.0.0.0.1",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 22
+                                },
+                                "frame": {
+                                  "left": 98,
+                                  "top": 254,
+                                  "width": 749.32,
+                                  "height": 22
+                                },
+                                "snappedFrame": {
+                                  "left": 98,
+                                  "top": 254,
+                                  "width": 750,
+                                  "height": 22
+                                },
+                                "children": [],
+                                "text": "1. Staff submits credentials",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/6hcrmhk3",
+                                  "id": "6",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.0.0.0.2",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 22
+                                },
+                                "frame": {
+                                  "left": 98,
+                                  "top": 288,
+                                  "width": 749.32,
+                                  "height": 22
+                                },
+                                "snappedFrame": {
+                                  "left": 98,
+                                  "top": 288,
+                                  "width": 750,
+                                  "height": 22
+                                },
+                                "children": [],
+                                "text": "2. Backend verifies bcrypt hash",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/z25kb6xk",
+                                  "id": "7",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.0.0.0.3",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 22
+                                },
+                                "frame": {
+                                  "left": 98,
+                                  "top": 322,
+                                  "width": 749.32,
+                                  "height": 22
+                                },
+                                "snappedFrame": {
+                                  "left": 98,
+                                  "top": 322,
+                                  "width": 750,
+                                  "height": 22
+                                },
+                                "children": [],
+                                "text": "3. API returns a 7-day token",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/oj2t83it",
+                                  "id": "8",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.0.0.0.4",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 22
+                                },
+                                "frame": {
+                                  "left": 98,
+                                  "top": 356,
+                                  "width": 749.32,
+                                  "height": 22
+                                },
+                                "snappedFrame": {
+                                  "left": 98,
+                                  "top": 356,
+                                  "width": 750,
+                                  "height": 22
+                                },
+                                "children": [],
+                                "text": "4. Frontend sends Bearer token on private repair requests",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/d4vmtwra",
+                                  "id": "9",
+                                  "kind": "shape"
+                                }
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 12,
+                            "effectiveGap": 12,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 98,
+                              "top": 206,
+                              "width": 749.32,
+                              "height": 197
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.0.0.0.0",
+                                "frame": {
+                                  "left": 98,
+                                  "top": 206,
+                                  "width": 749.32,
+                                  "height": 36
+                                }
+                              },
+                              {
+                                "path": "0.0.1.0.0.0.1",
+                                "frame": {
+                                  "left": 98,
+                                  "top": 254,
+                                  "width": 749.32,
+                                  "height": 22
+                                }
+                              },
+                              {
+                                "path": "0.0.1.0.0.0.2",
+                                "frame": {
+                                  "left": 98,
+                                  "top": 288,
+                                  "width": 749.32,
+                                  "height": 22
+                                }
+                              },
+                              {
+                                "path": "0.0.1.0.0.0.3",
+                                "frame": {
+                                  "left": 98,
+                                  "top": 322,
+                                  "width": 749.32,
+                                  "height": 22
+                                }
+                              },
+                              {
+                                "path": "0.0.1.0.0.0.4",
+                                "frame": {
+                                  "left": 98,
+                                  "top": 356,
+                                  "width": 749.32,
+                                  "height": 22
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "padding": {
+                          "top": 24,
+                          "right": 26,
+                          "bottom": 24,
+                          "left": 26
+                        },
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 98,
+                          "top": 206,
+                          "width": 749.32,
+                          "height": 197
+                        },
+                        "element": {
+                          "aid": "sh/onyd0z61",
+                          "id": "4",
+                          "kind": "shape"
+                        }
+                      },
+                      {
+                        "path": "0.0.1.0.1",
+                        "kind": "panel",
+                        "name": "protected-note",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "fixed",
+                            "value": 250
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 52,
+                          "height": 76
+                        },
+                        "frame": {
+                          "left": 72,
+                          "top": 445,
+                          "width": 801.32,
+                          "height": 250
+                        },
+                        "snappedFrame": {
+                          "left": 72,
+                          "top": 445,
+                          "width": 801.32,
+                          "height": 250
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.0.1.0",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 28
+                            },
+                            "frame": {
+                              "left": 98,
+                              "top": 469,
+                              "width": 749.32,
+                              "height": 56
+                            },
+                            "snappedFrame": {
+                              "left": 98,
+                              "top": 470,
+                              "width": 750,
+                              "height": 56
+                            },
+                            "children": [],
+                            "text": "The protect middleware verifies the token, loads the user, and rejects missing or invalid credentials with 401 responses.",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/sji5snel",
+                              "id": "11",
+                              "kind": "shape"
+                            }
+                          }
+                        ],
+                        "padding": {
+                          "top": 24,
+                          "right": 26,
+                          "bottom": 24,
+                          "left": 26
+                        },
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 98,
+                          "top": 469,
+                          "width": 749.32,
+                          "height": 202
+                        },
+                        "element": {
+                          "aid": "sh/h4byhgn2",
+                          "id": "10",
+                          "kind": "shape"
+                        }
+                      }
+                    ],
+                    "padding": {
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0
+                    },
+                    "gap": 18,
+                    "effectiveGap": 18,
+                    "justifyOffset": 0,
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 72,
+                      "top": 182,
+                      "width": 801.32,
+                      "height": 792
+                    },
+                    "items": [
+                      {
+                        "path": "0.0.1.0.0",
+                        "frame": {
+                          "left": 72,
+                          "top": 182,
+                          "width": 801.32,
+                          "height": 245
+                        }
+                      },
+                      {
+                        "path": "0.0.1.0.1",
+                        "frame": {
+                          "left": 72,
+                          "top": 445,
+                          "width": 801.32,
+                          "height": 250
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "path": "0.0.1.1",
+                    "kind": "panel",
+                    "name": "routes-table",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "fill",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 48,
+                      "height": 44
+                    },
+                    "frame": {
+                      "left": 907.32,
+                      "top": 182,
+                      "width": 940.68,
+                      "height": 792
+                    },
+                    "snappedFrame": {
+                      "left": 907.32,
+                      "top": 182,
+                      "width": 940.68,
+                      "height": 792
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.1.0",
+                        "kind": "column",
+                        "name": "routes-stack",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "fill",
+                            "value": 1
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 0,
+                          "height": 565
+                        },
+                        "frame": {
+                          "left": 931.32,
+                          "top": 204,
+                          "width": 892.68,
+                          "height": 748
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.1.0.0",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 34
+                            },
+                            "frame": {
+                              "left": 931.32,
+                              "top": 204,
+                              "width": 892.68,
+                              "height": 34
+                            },
+                            "snappedFrame": {
+                              "left": 932,
+                              "top": 204,
+                              "width": 892,
+                              "height": 34
+                            },
+                            "children": [],
+                            "text": "Routes implemented",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/adsji5sn",
+                              "id": "13",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.1",
+                            "kind": "row",
+                            "name": "route-POST-api-auth-signup",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 48
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 96,
+                              "height": 19
+                            },
+                            "frame": {
+                              "left": 931.32,
+                              "top": 249,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.1.0.1.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 82
+                                  },
+                                  "height": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 20,
+                                  "height": 39
+                                },
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 249,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "snappedFrame": {
+                                  "left": 931.32,
+                                  "top": 249,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.1.0.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 15
+                                    },
+                                    "frame": {
+                                      "left": 941.32,
+                                      "top": 261,
+                                      "width": 62,
+                                      "height": 15
+                                    },
+                                    "snappedFrame": {
+                                      "left": 942,
+                                      "top": 262,
+                                      "width": 62,
+                                      "height": 16
+                                    },
+                                    "children": [],
+                                    "text": "POST",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/s72x4nap",
+                                      "id": "15",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 12,
+                                  "right": 10,
+                                  "bottom": 12,
+                                  "left": 10
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 941.32,
+                                  "top": 261,
+                                  "width": 62,
+                                  "height": 24
+                                },
+                                "element": {
+                                  "aid": "sh/lszqtcj6",
+                                  "id": "14",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.1.1",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 19
+                                },
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 249,
+                                  "width": 796.68,
+                                  "height": 19
+                                },
+                                "snappedFrame": {
+                                  "left": 1028,
+                                  "top": 250,
+                                  "width": 796,
+                                  "height": 20
+                                },
+                                "children": [],
+                                "text": "/api/auth/signup",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/3m94fu18",
+                                  "id": "16",
+                                  "kind": "shape"
+                                }
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 14,
+                            "effectiveGap": 14,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 931.32,
+                              "top": 249,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.1.0.1.0",
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 249,
+                                  "width": 82,
+                                  "height": 48
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.1.1",
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 249,
+                                  "width": 796.68,
+                                  "height": 19
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.1.0.2",
+                            "kind": "row",
+                            "name": "route-POST-api-auth-login",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 48
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 96,
+                              "height": 19
+                            },
+                            "frame": {
+                              "left": 931.32,
+                              "top": 308,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.1.0.2.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 82
+                                  },
+                                  "height": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 20,
+                                  "height": 39
+                                },
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 308,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "snappedFrame": {
+                                  "left": 931.32,
+                                  "top": 308,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.2.0.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 15
+                                    },
+                                    "frame": {
+                                      "left": 941.32,
+                                      "top": 320,
+                                      "width": 62,
+                                      "height": 15
+                                    },
+                                    "snappedFrame": {
+                                      "left": 942,
+                                      "top": 320,
+                                      "width": 62,
+                                      "height": 16
+                                    },
+                                    "children": [],
+                                    "text": "POST",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/hoza1gvy",
+                                      "id": "18",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 12,
+                                  "right": 10,
+                                  "bottom": 12,
+                                  "left": 10
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 941.32,
+                                  "top": 320,
+                                  "width": 62,
+                                  "height": 24
+                                },
+                                "element": {
+                                  "aid": "sh/a5gbq1or",
+                                  "id": "17",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.2.1",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 19
+                                },
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 308,
+                                  "width": 796.68,
+                                  "height": 19
+                                },
+                                "snappedFrame": {
+                                  "left": 1028,
+                                  "top": 308,
+                                  "width": 796,
+                                  "height": 20
+                                },
+                                "children": [],
+                                "text": "/api/auth/login",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/s36hcrmh",
+                                  "id": "19",
+                                  "kind": "shape"
+                                }
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 14,
+                            "effectiveGap": 14,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 931.32,
+                              "top": 308,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.1.0.2.0",
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 308,
+                                  "width": 82,
+                                  "height": 48
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.2.1",
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 308,
+                                  "width": 796.68,
+                                  "height": 19
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.1.0.3",
+                            "kind": "row",
+                            "name": "route-GET-api-auth-me",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 48
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 96,
+                              "height": 19
+                            },
+                            "frame": {
+                              "left": 931.32,
+                              "top": 367,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.1.0.3.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 82
+                                  },
+                                  "height": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 20,
+                                  "height": 39
+                                },
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 367,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "snappedFrame": {
+                                  "left": 931.32,
+                                  "top": 367,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.3.0.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 15
+                                    },
+                                    "frame": {
+                                      "left": 941.32,
+                                      "top": 379,
+                                      "width": 62,
+                                      "height": 15
+                                    },
+                                    "snappedFrame": {
+                                      "left": 942,
+                                      "top": 380,
+                                      "width": 62,
+                                      "height": 16
+                                    },
+                                    "children": [],
+                                    "text": "GET",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/xkf6dcbu",
+                                      "id": "21",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 12,
+                                  "right": 10,
+                                  "bottom": 12,
+                                  "left": 10
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 941.32,
+                                  "top": 379,
+                                  "width": 62,
+                                  "height": 24
+                                },
+                                "element": {
+                                  "aid": "sh/4zidonyd",
+                                  "id": "20",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.3.1",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 19
+                                },
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 367,
+                                  "width": 796.68,
+                                  "height": 19
+                                },
+                                "snappedFrame": {
+                                  "left": 1028,
+                                  "top": 368,
+                                  "width": 796,
+                                  "height": 20
+                                },
+                                "children": [],
+                                "text": "/api/auth/me",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/mtwra5gb",
+                                  "id": "22",
+                                  "kind": "shape"
+                                }
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 14,
+                            "effectiveGap": 14,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 931.32,
+                              "top": 367,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.1.0.3.0",
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 367,
+                                  "width": 82,
+                                  "height": 48
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.3.1",
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 367,
+                                  "width": 796.68,
+                                  "height": 19
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.1.0.4",
+                            "kind": "row",
+                            "name": "route-GET-api-repairs-track-code",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 48
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 96,
+                              "height": 19
+                            },
+                            "frame": {
+                              "left": 931.32,
+                              "top": 426,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.1.0.4.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 82
+                                  },
+                                  "height": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 20,
+                                  "height": 39
+                                },
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 426,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "snappedFrame": {
+                                  "left": 931.32,
+                                  "top": 426,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.4.0.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 15
+                                    },
+                                    "frame": {
+                                      "left": 941.32,
+                                      "top": 438,
+                                      "width": 62,
+                                      "height": 15
+                                    },
+                                    "snappedFrame": {
+                                      "left": 942,
+                                      "top": 438,
+                                      "width": 62,
+                                      "height": 16
+                                    },
+                                    "children": [],
+                                    "text": "GET",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/4r65wjud",
+                                      "id": "24",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 12,
+                                  "right": 10,
+                                  "bottom": 12,
+                                  "left": 10
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 941.32,
+                                  "top": 438,
+                                  "width": 62,
+                                  "height": 24
+                                },
+                                "element": {
+                                  "aid": "sh/fepkzupw",
+                                  "id": "23",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.4.1",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 19
+                                },
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 426,
+                                  "width": 796.68,
+                                  "height": 19
+                                },
+                                "snappedFrame": {
+                                  "left": 1028,
+                                  "top": 426,
+                                  "width": 796,
+                                  "height": 20
+                                },
+                                "children": [],
+                                "text": "/api/repairs/track/:code",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/xc3ylc7u",
+                                  "id": "25",
+                                  "kind": "shape"
+                                }
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 14,
+                            "effectiveGap": 14,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 931.32,
+                              "top": 426,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.1.0.4.0",
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 426,
+                                  "width": 82,
+                                  "height": 48
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.4.1",
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 426,
+                                  "width": 796.68,
+                                  "height": 19
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.1.0.5",
+                            "kind": "row",
+                            "name": "route-POST-api-repairs",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 48
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 96,
+                              "height": 19
+                            },
+                            "frame": {
+                              "left": 931.32,
+                              "top": 485,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.1.0.5.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 82
+                                  },
+                                  "height": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 20,
+                                  "height": 39
+                                },
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 485,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "snappedFrame": {
+                                  "left": 931.32,
+                                  "top": 485,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.5.0.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 15
+                                    },
+                                    "frame": {
+                                      "left": 941.32,
+                                      "top": 497,
+                                      "width": 62,
+                                      "height": 15
+                                    },
+                                    "snappedFrame": {
+                                      "left": 942,
+                                      "top": 498,
+                                      "width": 62,
+                                      "height": 16
+                                    },
+                                    "children": [],
+                                    "text": "POST",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/f6dcbulw",
+                                      "id": "27",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 12,
+                                  "right": 10,
+                                  "bottom": 12,
+                                  "left": 10
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 941.32,
+                                  "top": 497,
+                                  "width": 62,
+                                  "height": 24
+                                },
+                                "element": {
+                                  "aid": "sh/mlkjm1cf",
+                                  "id": "26",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.5.1",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 19
+                                },
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 485,
+                                  "width": 796.68,
+                                  "height": 19
+                                },
+                                "snappedFrame": {
+                                  "left": 1028,
+                                  "top": 486,
+                                  "width": 796,
+                                  "height": 20
+                                },
+                                "children": [],
+                                "text": "/api/repairs",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/4fu18jqh",
+                                  "id": "28",
+                                  "kind": "shape"
+                                }
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 14,
+                            "effectiveGap": 14,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 931.32,
+                              "top": 485,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.1.0.5.0",
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 485,
+                                  "width": 82,
+                                  "height": 48
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.5.1",
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 485,
+                                  "width": 796.68,
+                                  "height": 19
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.1.0.6",
+                            "kind": "row",
+                            "name": "route-GET-api-repairs",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 48
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 96,
+                              "height": 19
+                            },
+                            "frame": {
+                              "left": 931.32,
+                              "top": 544,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.1.0.6.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 82
+                                  },
+                                  "height": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 20,
+                                  "height": 39
+                                },
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 544,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "snappedFrame": {
+                                  "left": 931.32,
+                                  "top": 544,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.6.0.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 15
+                                    },
+                                    "frame": {
+                                      "left": 941.32,
+                                      "top": 556,
+                                      "width": 62,
+                                      "height": 15
+                                    },
+                                    "snappedFrame": {
+                                      "left": 942,
+                                      "top": 556,
+                                      "width": 62,
+                                      "height": 16
+                                    },
+                                    "children": [],
+                                    "text": "GET",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/nuxc3ylc",
+                                      "id": "30",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 12,
+                                  "right": 10,
+                                  "bottom": 12,
+                                  "left": 10
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 941.32,
+                                  "top": 556,
+                                  "width": 62,
+                                  "height": 24
+                                },
+                                "element": {
+                                  "aid": "sh/x0nuxc3y",
+                                  "id": "29",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.6.1",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 19
+                                },
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 544,
+                                  "width": 796.68,
+                                  "height": 19
+                                },
+                                "snappedFrame": {
+                                  "left": 1028,
+                                  "top": 544,
+                                  "width": 796,
+                                  "height": 20
+                                },
+                                "children": [],
+                                "text": "/api/repairs",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/y90je9cv",
+                                  "id": "31",
+                                  "kind": "shape"
+                                }
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 14,
+                            "effectiveGap": 14,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 931.32,
+                              "top": 544,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.1.0.6.0",
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 544,
+                                  "width": 82,
+                                  "height": 48
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.6.1",
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 544,
+                                  "width": 796.68,
+                                  "height": 19
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.1.0.7",
+                            "kind": "row",
+                            "name": "route-PUT-api-repairs-id",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 48
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 96,
+                              "height": 19
+                            },
+                            "frame": {
+                              "left": 931.32,
+                              "top": 603,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.1.0.7.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 82
+                                  },
+                                  "height": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 20,
+                                  "height": 39
+                                },
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 603,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "snappedFrame": {
+                                  "left": 931.32,
+                                  "top": 603,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.7.0.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 15
+                                    },
+                                    "frame": {
+                                      "left": 941.32,
+                                      "top": 615,
+                                      "width": 62,
+                                      "height": 15
+                                    },
+                                    "snappedFrame": {
+                                      "left": 942,
+                                      "top": 616,
+                                      "width": 62,
+                                      "height": 16
+                                    },
+                                    "children": [],
+                                    "text": "PUT",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/gbq1oryt",
+                                      "id": "33",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 12,
+                                  "right": 10,
+                                  "bottom": 12,
+                                  "left": 10
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 941.32,
+                                  "top": 615,
+                                  "width": 62,
+                                  "height": 24
+                                },
+                                "element": {
+                                  "aid": "sh/5wjudg7a",
+                                  "id": "32",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.7.1",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 19
+                                },
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 603,
+                                  "width": 796.68,
+                                  "height": 19
+                                },
+                                "snappedFrame": {
+                                  "left": 1028,
+                                  "top": 604,
+                                  "width": 796,
+                                  "height": 20
+                                },
+                                "children": [],
+                                "text": "/api/repairs/:id",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/n29gr2p8",
+                                  "id": "34",
+                                  "kind": "shape"
+                                }
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 14,
+                            "effectiveGap": 14,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 931.32,
+                              "top": 603,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.1.0.7.0",
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 603,
+                                  "width": 82,
+                                  "height": 48
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.7.1",
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 603,
+                                  "width": 796.68,
+                                  "height": 19
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.1.0.8",
+                            "kind": "row",
+                            "name": "route-DELETE-api-repairs-id",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 48
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 96,
+                              "height": 19
+                            },
+                            "frame": {
+                              "left": 931.32,
+                              "top": 662,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.1.0.8.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 82
+                                  },
+                                  "height": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 20,
+                                  "height": 39
+                                },
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 662,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "snappedFrame": {
+                                  "left": 931.32,
+                                  "top": 662,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.8.0.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 15
+                                    },
+                                    "frame": {
+                                      "left": 941.32,
+                                      "top": 674,
+                                      "width": 62,
+                                      "height": 15
+                                    },
+                                    "snappedFrame": {
+                                      "left": 942,
+                                      "top": 674,
+                                      "width": 62,
+                                      "height": 16
+                                    },
+                                    "children": [],
+                                    "text": "DELETE",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/58z25kb6",
+                                      "id": "36",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 12,
+                                  "right": 10,
+                                  "bottom": 12,
+                                  "left": 10
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 941.32,
+                                  "top": 674,
+                                  "width": 62,
+                                  "height": 24
+                                },
+                                "element": {
+                                  "aid": "sh/yhgn29gr",
+                                  "id": "35",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.8.1",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 19
+                                },
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 662,
+                                  "width": 796.68,
+                                  "height": 19
+                                },
+                                "snappedFrame": {
+                                  "left": 1028,
+                                  "top": 662,
+                                  "width": 796,
+                                  "height": 20
+                                },
+                                "children": [],
+                                "text": "/api/repairs/:id",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/gn29gr2p",
+                                  "id": "37",
+                                  "kind": "shape"
+                                }
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 14,
+                            "effectiveGap": 14,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 931.32,
+                              "top": 662,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.1.0.8.0",
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 662,
+                                  "width": 82,
+                                  "height": 48
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.8.1",
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 662,
+                                  "width": 796.68,
+                                  "height": 19
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.1.0.9",
+                            "kind": "row",
+                            "name": "route-PATCH-api-repairs-id-complete",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 48
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 96,
+                              "height": 19
+                            },
+                            "frame": {
+                              "left": 931.32,
+                              "top": 721,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.1.0.9.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 82
+                                  },
+                                  "height": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 20,
+                                  "height": 39
+                                },
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 721,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "snappedFrame": {
+                                  "left": 931.32,
+                                  "top": 721,
+                                  "width": 82,
+                                  "height": 48
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.9.0.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 15
+                                    },
+                                    "frame": {
+                                      "left": 941.32,
+                                      "top": 733,
+                                      "width": 62,
+                                      "height": 15
+                                    },
+                                    "snappedFrame": {
+                                      "left": 942,
+                                      "top": 734,
+                                      "width": 62,
+                                      "height": 16
+                                    },
+                                    "children": [],
+                                    "text": "PATCH",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/ytsvu9kn",
+                                      "id": "39",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 12,
+                                  "right": 10,
+                                  "bottom": 12,
+                                  "left": 10
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 941.32,
+                                  "top": 733,
+                                  "width": 62,
+                                  "height": 24
+                                },
+                                "element": {
+                                  "aid": "sh/neloj2t8",
+                                  "id": "38",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.9.1",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 19
+                                },
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 721,
+                                  "width": 796.68,
+                                  "height": 19
+                                },
+                                "snappedFrame": {
+                                  "left": 1028,
+                                  "top": 722,
+                                  "width": 796,
+                                  "height": 20
+                                },
+                                "children": [],
+                                "text": "/api/repairs/:id/complete",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/q5o7qpg3",
+                                  "id": "40",
+                                  "kind": "shape"
+                                }
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 14,
+                            "effectiveGap": 14,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 931.32,
+                              "top": 721,
+                              "width": 892.68,
+                              "height": 48
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.1.0.9.0",
+                                "frame": {
+                                  "left": 931.32,
+                                  "top": 721,
+                                  "width": 82,
+                                  "height": 48
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.9.1",
+                                "frame": {
+                                  "left": 1027.32,
+                                  "top": 721,
+                                  "width": 796.68,
+                                  "height": 19
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "padding": {
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 0,
+                          "left": 0
+                        },
+                        "gap": 11,
+                        "effectiveGap": 11,
+                        "justifyOffset": 0,
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 931.32,
+                          "top": 204,
+                          "width": 892.68,
+                          "height": 748
+                        },
+                        "items": [
+                          {
+                            "path": "0.0.1.1.0.0",
+                            "frame": {
+                              "left": 931.32,
+                              "top": 204,
+                              "width": 892.68,
+                              "height": 34
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.1",
+                            "frame": {
+                              "left": 931.32,
+                              "top": 249,
+                              "width": 892.68,
+                              "height": 48
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.2",
+                            "frame": {
+                              "left": 931.32,
+                              "top": 308,
+                              "width": 892.68,
+                              "height": 48
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.3",
+                            "frame": {
+                              "left": 931.32,
+                              "top": 367,
+                              "width": 892.68,
+                              "height": 48
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.4",
+                            "frame": {
+                              "left": 931.32,
+                              "top": 426,
+                              "width": 892.68,
+                              "height": 48
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.5",
+                            "frame": {
+                              "left": 931.32,
+                              "top": 485,
+                              "width": 892.68,
+                              "height": 48
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.6",
+                            "frame": {
+                              "left": 931.32,
+                              "top": 544,
+                              "width": 892.68,
+                              "height": 48
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.7",
+                            "frame": {
+                              "left": 931.32,
+                              "top": 603,
+                              "width": 892.68,
+                              "height": 48
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.8",
+                            "frame": {
+                              "left": 931.32,
+                              "top": 662,
+                              "width": 892.68,
+                              "height": 48
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.9",
+                            "frame": {
+                              "left": 931.32,
+                              "top": 721,
+                              "width": 892.68,
+                              "height": 48
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "padding": {
+                      "top": 22,
+                      "right": 24,
+                      "bottom": 22,
+                      "left": 24
+                    },
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 931.32,
+                      "top": 204,
+                      "width": 892.68,
+                      "height": 748
+                    },
+                    "element": {
+                      "aid": "sh/3ylc7u54",
+                      "id": "12",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "columnGap": 34,
+                "rowGap": 0,
+                "alignItems": "stretch",
+                "justifyItems": "stretch",
+                "contentFrame": {
+                  "left": 72,
+                  "top": 182,
+                  "width": 1776,
+                  "height": 792
+                },
+                "columns": [
+                  {
+                    "mode": "fr",
+                    "value": 0.92
+                  },
+                  {
+                    "mode": "fr",
+                    "value": 1.08
+                  }
+                ],
+                "rows": [
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  }
+                ],
+                "autoRows": "auto",
+                "resolvedRows": [
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  }
+                ],
+                "columnSizes": [
+                  801.32,
+                  940.68
+                ],
+                "rowSizes": [
+                  792
+                ],
+                "cells": [
+                  {
+                    "path": "0.0.1.0",
+                    "column": 0,
+                    "row": 0,
+                    "columnSpan": 1,
+                    "rowSpan": 1,
+                    "cellFrame": {
+                      "left": 72,
+                      "top": 182,
+                      "width": 801.32,
+                      "height": 792
+                    }
+                  },
+                  {
+                    "path": "0.0.1.1",
+                    "column": 1,
+                    "row": 0,
+                    "columnSpan": 1,
+                    "rowSpan": 1,
+                    "cellFrame": {
+                      "left": 907.32,
+                      "top": 182,
+                      "width": 940.68,
+                      "height": 792
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.0.2",
+                "kind": "row",
+                "name": "footer",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 94,
+                  "height": 14
+                },
+                "frame": {
+                  "left": 72,
+                  "top": 1008,
+                  "width": 1776,
+                  "height": 14
+                },
+                "children": [
+                  {
+                    "path": "0.0.2.0",
+                    "kind": "text",
+                    "name": "footer-left",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 14
+                    },
+                    "frame": {
+                      "left": 72,
+                      "top": 1008,
+                      "width": 1682,
+                      "height": 14
+                    },
+                    "snappedFrame": {
+                      "left": 72,
+                      "top": 1008,
+                      "width": 1682,
+                      "height": 14
+                    },
+                    "children": [],
+                    "text": "Repair Manager website report",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/jqh0fepk",
+                      "id": "41",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.2.1",
+                    "kind": "text",
+                    "name": "footer-page",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fixed",
+                        "value": 70
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 70,
+                      "height": 14
+                    },
+                    "frame": {
+                      "left": 1778,
+                      "top": 1008,
+                      "width": 70,
+                      "height": 14
+                    },
+                    "snappedFrame": {
+                      "left": 1778,
+                      "top": 1008,
+                      "width": 70,
+                      "height": 14
+                    },
+                    "children": [],
+                    "text": "5/10",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/8bat47y1",
+                      "id": "42",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 24,
+                "effectiveGap": 24,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 72,
+                  "top": 1008,
+                  "width": 1776,
+                  "height": 14
+                },
+                "items": [
+                  {
+                    "path": "0.0.2.0",
+                    "frame": {
+                      "left": 72,
+                      "top": 1008,
+                      "width": 1682,
+                      "height": 14
+                    }
+                  },
+                  {
+                    "path": "0.0.2.1",
+                    "frame": {
+                      "left": 1778,
+                      "top": 1008,
+                      "width": 70,
+                      "height": 14
+                    }
+                  }
+                ]
+              }
+            ],
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "gap": 34,
+            "effectiveGap": 34,
+            "justifyOffset": 0,
+            "align": "start",
+            "justify": "start",
+            "contentFrame": {
+              "left": 72,
+              "top": 58,
+              "width": 1776,
+              "height": 964
+            },
+            "items": [
+              {
+                "path": "0.0.0",
+                "frame": {
+                  "left": 72,
+                  "top": 58,
+                  "width": 1776,
+                  "height": 90
+                }
+              },
+              {
+                "path": "0.0.1",
+                "frame": {
+                  "left": 72,
+                  "top": 182,
+                  "width": 1776,
+                  "height": 792
+                }
+              },
+              {
+                "path": "0.0.2",
+                "frame": {
+                  "left": 72,
+                  "top": 1008,
+                  "width": 1776,
+                  "height": 14
+                }
+              }
+            ]
+          }
+        ],
+        "padding": {
+          "top": 58,
+          "right": 72,
+          "bottom": 58,
+          "left": 72
+        },
+        "align": "start",
+        "justify": "start",
+        "contentFrame": {
+          "left": 72,
+          "top": 58,
+          "width": 1776,
+          "height": 964
+        },
+        "element": {
+          "aid": "sh/dg7adsji",
+          "id": "1",
+          "kind": "shape"
+        }
+      }
+    }
+  ]
+}

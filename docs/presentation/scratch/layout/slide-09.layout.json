@@ -1,0 +1,3079 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/mp461b",
+    "id": "mp461b",
+    "slide": 9,
+    "layoutId": "9594e98a-c731-4fd9-8a27-6976eeb92c8d",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d1d9a579-ab40-4347-8302-d2a3a1b1d825",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "9594e98a-c731-4fd9-8a27-6976eeb92c8d",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d1d9a579-ab40-4347-8302-d2a3a1b1d825",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d1d9a579-ab40-4347-8302-d2a3a1b1d825",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/29gr2p8n",
+      "id": "1",
+      "name": "slide-background",
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#080A0F",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0z61032",
+      "id": "2",
+      "name": "slide-title",
+      "bbox": [
+        72,
+        58,
+        1776,
+        54
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.0"
+      },
+      "geometry": "rect",
+      "text": "Quality, risks, and next improvements",
+      "textPreview": "Quality, risks, and next improvements",
+      "resolvedFontSize": 54,
+      "resolvedTextStyle": {
+        "fontSize": 54,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Quality, risks, and next improvements"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Quality, risks, and next improvements",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Quality, risks, and next improvements",
+              "fontSize": 54,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kf6dcbul",
+      "id": "3",
+      "name": "slide-subtitle",
+      "bbox": [
+        72,
+        124,
+        1776,
+        24
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.1"
+      },
+      "geometry": "rect",
+      "text": "The website is a strong functional prototype; the next step is production hardening and test coverage.",
+      "textPreview": "The website is a strong functional prototype; the next step is production hardening and test coverage.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The website is a strong functional prototype; the next step is production hardening and test coverage."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The website is a strong functional prototype; the next step is production hardening and test coverage.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "The website is a strong functional prototype; the next step is production hardening and test coverage.",
+              "fontSize": 24,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6psfil0",
+      "id": "4",
+      "name": "quality-strengths",
+      "bbox": [
+        72,
+        182,
+        574.67,
+        792
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#0F1117",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2lszqtcj",
+      "id": "5",
+      "bbox": [
+        98,
+        206,
+        86,
+        5
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.0"
+      },
+      "geometry": "rect",
+      "fillColor": "#10B981",
+      "lineColor": "#10B981",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8bat47y",
+      "id": "6",
+      "bbox": [
+        98,
+        226,
+        522,
+        36
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.1"
+      },
+      "geometry": "rect",
+      "text": "Strengths",
+      "textPreview": "Strengths",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "fontSize": 36,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Strengths"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Strengths",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Strengths",
+              "fontSize": 36,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/knih4byh",
+      "id": "7",
+      "name": "quality-strengths-item-1",
+      "bbox": [
+        98,
+        276,
+        522,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.2"
+      },
+      "geometry": "rect",
+      "text": "1. Clear MERN separation",
+      "textPreview": "1. Clear MERN separation",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. Clear MERN separation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1. Clear MERN separation",
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. Clear MERN separation",
+              "fontSize": 21,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/val87ed8",
+      "id": "8",
+      "name": "quality-strengths-item-2",
+      "bbox": [
+        98,
+        310,
+        522,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.3"
+      },
+      "geometry": "rect",
+      "text": "2. User-scoped repair data",
+      "textPreview": "2. User-scoped repair data",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2. User-scoped repair data"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2. User-scoped repair data",
+          "runs": [
+            {
+              "index": 1,
+              "text": "2. User-scoped repair data",
+              "fontSize": 21,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6psfil0r",
+      "id": "9",
+      "name": "quality-strengths-item-3",
+      "bbox": [
+        98,
+        346,
+        522,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.4"
+      },
+      "geometry": "rect",
+      "text": "3. Public tracking without login",
+      "textPreview": "3. Public tracking without login",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3. Public tracking without login"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3. Public tracking without login",
+          "runs": [
+            {
+              "index": 1,
+              "text": "3. Public tracking without login",
+              "fontSize": 21,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4r65wjud",
+      "id": "10",
+      "name": "quality-strengths-item-4",
+      "bbox": [
+        98,
+        380,
+        522,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.5"
+      },
+      "geometry": "rect",
+      "text": "4. Practical dashboard KPIs",
+      "textPreview": "4. Practical dashboard KPIs",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4. Practical dashboard KPIs"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4. Practical dashboard KPIs",
+          "runs": [
+            {
+              "index": 1,
+              "text": "4. Practical dashboard KPIs",
+              "fontSize": 21,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc3ylc7u",
+      "id": "11",
+      "name": "quality-strengths-item-5",
+      "bbox": [
+        98,
+        416,
+        522,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.6"
+      },
+      "geometry": "rect",
+      "text": "5. Readable route organization",
+      "textPreview": "5. Readable route organization",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5. Readable route organization"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5. Readable route organization",
+          "runs": [
+            {
+              "index": 1,
+              "text": "5. Readable route organization",
+              "fontSize": 21,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mlkjm1cf",
+      "id": "12",
+      "name": "quality-risks",
+      "bbox": [
+        672.67,
+        182,
+        574.67,
+        792
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#0F1117",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f6dcbulw",
+      "id": "13",
+      "bbox": [
+        698,
+        206,
+        86,
+        5
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.0"
+      },
+      "geometry": "rect",
+      "fillColor": "#EF4444",
+      "lineColor": "#EF4444",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4zidonyd",
+      "id": "14",
+      "bbox": [
+        698,
+        226,
+        522,
+        36
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.1"
+      },
+      "geometry": "rect",
+      "text": "Risks to address",
+      "textPreview": "Risks to address",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "fontSize": 36,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Risks to address"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Risks to address",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Risks to address",
+              "fontSize": 36,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkf6dcbu",
+      "id": "15",
+      "name": "quality-risks-item-1",
+      "bbox": [
+        698,
+        276,
+        522,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.2"
+      },
+      "geometry": "rect",
+      "text": "1. No automated tests yet",
+      "textPreview": "1. No automated tests yet",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. No automated tests yet"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1. No automated tests yet",
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. No automated tests yet",
+              "fontSize": 21,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mtwra5gb",
+      "id": "16",
+      "name": "quality-risks-item-2",
+      "bbox": [
+        698,
+        310,
+        522,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.3"
+      },
+      "geometry": "rect",
+      "text": "2. Development JWT fallback",
+      "textPreview": "2. Development JWT fallback",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2. Development JWT fallback"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2. Development JWT fallback",
+          "runs": [
+            {
+              "index": 1,
+              "text": "2. Development JWT fallback",
+              "fontSize": 21,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fepkzupw",
+      "id": "17",
+      "name": "quality-risks-item-3",
+      "bbox": [
+        698,
+        346,
+        522,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.4"
+      },
+      "geometry": "rect",
+      "text": "3. Encoding artifacts in UI text",
+      "textPreview": "3. Encoding artifacts in UI text",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3. Encoding artifacts in UI text"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3. Encoding artifacts in UI text",
+          "runs": [
+            {
+              "index": 1,
+              "text": "3. Encoding artifacts in UI text",
+              "fontSize": 21,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83itgfml",
+      "id": "18",
+      "name": "quality-risks-item-4",
+      "bbox": [
+        698,
+        380,
+        522,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.5"
+      },
+      "geometry": "rect",
+      "text": "4. No rate limiting on public lookup",
+      "textPreview": "4. No rate limiting on public lookup",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4. No rate limiting on public lookup"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4. No rate limiting on public lookup",
+          "runs": [
+            {
+              "index": 1,
+              "text": "4. No rate limiting on public lookup",
+              "fontSize": 21,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xobm58z2",
+      "id": "19",
+      "name": "quality-risks-item-5",
+      "bbox": [
+        698,
+        416,
+        522,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.6"
+      },
+      "geometry": "rect",
+      "text": "5. No role-based authorization",
+      "textPreview": "5. No role-based authorization",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5. No role-based authorization"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5. No role-based authorization",
+          "runs": [
+            {
+              "index": 1,
+              "text": "5. No role-based authorization",
+              "fontSize": 21,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lszqtcj6",
+      "id": "20",
+      "name": "quality-roadmap",
+      "bbox": [
+        1273.33,
+        182,
+        574.67,
+        792
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#0F1117",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s72x4nap",
+      "id": "21",
+      "bbox": [
+        1300,
+        206,
+        86,
+        5
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0.0"
+      },
+      "geometry": "rect",
+      "fillColor": "#F59E0B",
+      "lineColor": "#F59E0B",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3m94fu18",
+      "id": "22",
+      "bbox": [
+        1300,
+        226,
+        522,
+        36
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0.1"
+      },
+      "geometry": "rect",
+      "text": "Roadmap",
+      "textPreview": "Roadmap",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "fontSize": 36,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Roadmap"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Roadmap",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Roadmap",
+              "fontSize": 36,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5gbq1or",
+      "id": "23",
+      "name": "quality-roadmap-item-1",
+      "bbox": [
+        1300,
+        276,
+        522,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0.2"
+      },
+      "geometry": "rect",
+      "text": "1. API validation library",
+      "textPreview": "1. API validation library",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. API validation library"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1. API validation library",
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. API validation library",
+              "fontSize": 21,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4byhgn2",
+      "id": "24",
+      "name": "quality-roadmap-item-2",
+      "bbox": [
+        1300,
+        310,
+        522,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0.3"
+      },
+      "geometry": "rect",
+      "text": "2. Unit and integration tests",
+      "textPreview": "2. Unit and integration tests",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2. Unit and integration tests"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2. Unit and integration tests",
+          "runs": [
+            {
+              "index": 1,
+              "text": "2. Unit and integration tests",
+              "fontSize": 21,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sji5snel",
+      "id": "25",
+      "name": "quality-roadmap-item-3",
+      "bbox": [
+        1300,
+        346,
+        522,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0.4"
+      },
+      "geometry": "rect",
+      "text": "3. Repair status timeline",
+      "textPreview": "3. Repair status timeline",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3. Repair status timeline"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3. Repair status timeline",
+          "runs": [
+            {
+              "index": 1,
+              "text": "3. Repair status timeline",
+              "fontSize": 21,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ylc7u54",
+      "id": "26",
+      "name": "quality-roadmap-item-4",
+      "bbox": [
+        1300,
+        380,
+        522,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0.5"
+      },
+      "geometry": "rect",
+      "text": "4. Invoices and printable job cards",
+      "textPreview": "4. Invoices and printable job cards",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4. Invoices and printable job cards"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4. Invoices and printable job cards",
+          "runs": [
+            {
+              "index": 1,
+              "text": "4. Invoices and printable job cards",
+              "fontSize": 21,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adsji5sn",
+      "id": "27",
+      "name": "quality-roadmap-item-5",
+      "bbox": [
+        1300,
+        416,
+        522,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0.6"
+      },
+      "geometry": "rect",
+      "text": "5. Email or SMS customer updates",
+      "textPreview": "5. Email or SMS customer updates",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5. Email or SMS customer updates"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5. Email or SMS customer updates",
+          "runs": [
+            {
+              "index": 1,
+              "text": "5. Email or SMS customer updates",
+              "fontSize": 21,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgn29gr2",
+      "id": "28",
+      "name": "footer-left",
+      "bbox": [
+        72,
+        1008,
+        1682,
+        14
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.2.0"
+      },
+      "geometry": "rect",
+      "text": "Repair Manager website report",
+      "textPreview": "Repair Manager website report",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Repair Manager website report"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Repair Manager website report",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Repair Manager website report",
+              "fontSize": 14,
+              "color": "#64748B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svu9knih",
+      "id": "29",
+      "name": "footer-page",
+      "bbox": [
+        1778,
+        1008,
+        70,
+        14
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.2.1"
+      },
+      "geometry": "rect",
+      "text": "9/10",
+      "textPreview": "9/10",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "9/10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "9/10",
+          "runs": [
+            {
+              "index": 1,
+              "text": "9/10",
+              "fontSize": 14,
+              "color": "#64748B"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "baseUnit": 8,
+      "root": {
+        "path": "0",
+        "kind": "panel",
+        "name": "slide-background",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 144,
+          "height": 116
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "snappedFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "column",
+            "name": "slide-root",
+            "requestedSize": {
+              "width": {
+                "mode": "fill",
+                "value": 1
+              },
+              "height": {
+                "mode": "fill",
+                "value": 1
+              }
+            },
+            "intrinsicSize": {
+              "width": 0,
+              "height": 172
+            },
+            "frame": {
+              "left": 72,
+              "top": 58,
+              "width": 1776,
+              "height": 964
+            },
+            "children": [
+              {
+                "path": "0.0.0",
+                "kind": "column",
+                "name": "title-stack",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 0,
+                  "height": 90
+                },
+                "frame": {
+                  "left": 72,
+                  "top": 58,
+                  "width": 1776,
+                  "height": 90
+                },
+                "children": [
+                  {
+                    "path": "0.0.0.0",
+                    "kind": "text",
+                    "name": "slide-title",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 54
+                    },
+                    "frame": {
+                      "left": 72,
+                      "top": 58,
+                      "width": 1776,
+                      "height": 54
+                    },
+                    "snappedFrame": {
+                      "left": 72,
+                      "top": 58,
+                      "width": 1776,
+                      "height": 54
+                    },
+                    "children": [],
+                    "text": "Quality, risks, and next improvements",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/d0z61032",
+                      "id": "2",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.0.1",
+                    "kind": "text",
+                    "name": "slide-subtitle",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 24
+                    },
+                    "frame": {
+                      "left": 72,
+                      "top": 124,
+                      "width": 1776,
+                      "height": 24
+                    },
+                    "snappedFrame": {
+                      "left": 72,
+                      "top": 124,
+                      "width": 1776,
+                      "height": 24
+                    },
+                    "children": [],
+                    "text": "The website is a strong functional prototype; the next step is production hardening and test coverage.",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/kf6dcbul",
+                      "id": "3",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 12,
+                "effectiveGap": 12,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 72,
+                  "top": 58,
+                  "width": 1776,
+                  "height": 90
+                },
+                "items": [
+                  {
+                    "path": "0.0.0.0",
+                    "frame": {
+                      "left": 72,
+                      "top": 58,
+                      "width": 1776,
+                      "height": 54
+                    }
+                  },
+                  {
+                    "path": "0.0.0.1",
+                    "frame": {
+                      "left": 72,
+                      "top": 124,
+                      "width": 1776,
+                      "height": 24
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.0.1",
+                "kind": "row",
+                "name": "quality-body",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "fill",
+                    "value": 1
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 52,
+                  "height": 0
+                },
+                "frame": {
+                  "left": 72,
+                  "top": 182,
+                  "width": 1776,
+                  "height": 792
+                },
+                "children": [
+                  {
+                    "path": "0.0.1.0",
+                    "kind": "panel",
+                    "name": "quality-strengths",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "fill",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 52,
+                      "height": 48
+                    },
+                    "frame": {
+                      "left": 72,
+                      "top": 182,
+                      "width": 574.67,
+                      "height": 792
+                    },
+                    "snappedFrame": {
+                      "left": 72,
+                      "top": 182,
+                      "width": 574.67,
+                      "height": 792
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.0.0",
+                        "kind": "column",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "fill",
+                            "value": 1
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 86,
+                          "height": 230
+                        },
+                        "frame": {
+                          "left": 98,
+                          "top": 206,
+                          "width": 522.67,
+                          "height": 744
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.0.0.0",
+                            "kind": "rule",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fixed",
+                                "value": 86
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 5
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 86,
+                              "height": 5
+                            },
+                            "frame": {
+                              "left": 98,
+                              "top": 206,
+                              "width": 86,
+                              "height": 5
+                            },
+                            "snappedFrame": {
+                              "left": 98,
+                              "top": 206,
+                              "width": 86,
+                              "height": 5
+                            },
+                            "children": [],
+                            "weight": 5,
+                            "element": {
+                              "aid": "sh/2lszqtcj",
+                              "id": "5",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.1",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 36
+                            },
+                            "frame": {
+                              "left": 98,
+                              "top": 225,
+                              "width": 522.67,
+                              "height": 36
+                            },
+                            "snappedFrame": {
+                              "left": 98,
+                              "top": 226,
+                              "width": 522,
+                              "height": 36
+                            },
+                            "children": [],
+                            "text": "Strengths",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/d8bat47y",
+                              "id": "6",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.2",
+                            "kind": "text",
+                            "name": "quality-strengths-item-1",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 21
+                            },
+                            "frame": {
+                              "left": 98,
+                              "top": 275,
+                              "width": 522.67,
+                              "height": 21
+                            },
+                            "snappedFrame": {
+                              "left": 98,
+                              "top": 276,
+                              "width": 522,
+                              "height": 22
+                            },
+                            "children": [],
+                            "text": "1. Clear MERN separation",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/knih4byh",
+                              "id": "7",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.3",
+                            "kind": "text",
+                            "name": "quality-strengths-item-2",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 21
+                            },
+                            "frame": {
+                              "left": 98,
+                              "top": 310,
+                              "width": 522.67,
+                              "height": 21
+                            },
+                            "snappedFrame": {
+                              "left": 98,
+                              "top": 310,
+                              "width": 522,
+                              "height": 22
+                            },
+                            "children": [],
+                            "text": "2. User-scoped repair data",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/val87ed8",
+                              "id": "8",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.4",
+                            "kind": "text",
+                            "name": "quality-strengths-item-3",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 21
+                            },
+                            "frame": {
+                              "left": 98,
+                              "top": 345,
+                              "width": 522.67,
+                              "height": 21
+                            },
+                            "snappedFrame": {
+                              "left": 98,
+                              "top": 346,
+                              "width": 522,
+                              "height": 22
+                            },
+                            "children": [],
+                            "text": "3. Public tracking without login",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/6psfil0r",
+                              "id": "9",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.5",
+                            "kind": "text",
+                            "name": "quality-strengths-item-4",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 21
+                            },
+                            "frame": {
+                              "left": 98,
+                              "top": 380,
+                              "width": 522.67,
+                              "height": 21
+                            },
+                            "snappedFrame": {
+                              "left": 98,
+                              "top": 380,
+                              "width": 522,
+                              "height": 22
+                            },
+                            "children": [],
+                            "text": "4. Practical dashboard KPIs",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/4r65wjud",
+                              "id": "10",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.6",
+                            "kind": "text",
+                            "name": "quality-strengths-item-5",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 21
+                            },
+                            "frame": {
+                              "left": 98,
+                              "top": 415,
+                              "width": 522.67,
+                              "height": 21
+                            },
+                            "snappedFrame": {
+                              "left": 98,
+                              "top": 416,
+                              "width": 522,
+                              "height": 22
+                            },
+                            "children": [],
+                            "text": "5. Readable route organization",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/xc3ylc7u",
+                              "id": "11",
+                              "kind": "shape"
+                            }
+                          }
+                        ],
+                        "padding": {
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 0,
+                          "left": 0
+                        },
+                        "gap": 14,
+                        "effectiveGap": 14,
+                        "justifyOffset": 0,
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 98,
+                          "top": 206,
+                          "width": 522.67,
+                          "height": 744
+                        },
+                        "items": [
+                          {
+                            "path": "0.0.1.0.0.0",
+                            "frame": {
+                              "left": 98,
+                              "top": 206,
+                              "width": 86,
+                              "height": 5
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.1",
+                            "frame": {
+                              "left": 98,
+                              "top": 225,
+                              "width": 522.67,
+                              "height": 36
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.2",
+                            "frame": {
+                              "left": 98,
+                              "top": 275,
+                              "width": 522.67,
+                              "height": 21
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.3",
+                            "frame": {
+                              "left": 98,
+                              "top": 310,
+                              "width": 522.67,
+                              "height": 21
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.4",
+                            "frame": {
+                              "left": 98,
+                              "top": 345,
+                              "width": 522.67,
+                              "height": 21
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.5",
+                            "frame": {
+                              "left": 98,
+                              "top": 380,
+                              "width": 522.67,
+                              "height": 21
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.6",
+                            "frame": {
+                              "left": 98,
+                              "top": 415,
+                              "width": 522.67,
+                              "height": 21
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "padding": {
+                      "top": 24,
+                      "right": 26,
+                      "bottom": 24,
+                      "left": 26
+                    },
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 98,
+                      "top": 206,
+                      "width": 522.67,
+                      "height": 744
+                    },
+                    "element": {
+                      "aid": "sh/v6psfil0",
+                      "id": "4",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.1.1",
+                    "kind": "panel",
+                    "name": "quality-risks",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "fill",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 52,
+                      "height": 48
+                    },
+                    "frame": {
+                      "left": 672.67,
+                      "top": 182,
+                      "width": 574.67,
+                      "height": 792
+                    },
+                    "snappedFrame": {
+                      "left": 672.67,
+                      "top": 182,
+                      "width": 574.67,
+                      "height": 792
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.1.0",
+                        "kind": "column",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "fill",
+                            "value": 1
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 86,
+                          "height": 230
+                        },
+                        "frame": {
+                          "left": 698.67,
+                          "top": 206,
+                          "width": 522.67,
+                          "height": 744
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.1.0.0",
+                            "kind": "rule",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fixed",
+                                "value": 86
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 5
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 86,
+                              "height": 5
+                            },
+                            "frame": {
+                              "left": 698.67,
+                              "top": 206,
+                              "width": 86,
+                              "height": 5
+                            },
+                            "snappedFrame": {
+                              "left": 698,
+                              "top": 206,
+                              "width": 86,
+                              "height": 5
+                            },
+                            "children": [],
+                            "weight": 5,
+                            "element": {
+                              "aid": "sh/f6dcbulw",
+                              "id": "13",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.1",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 36
+                            },
+                            "frame": {
+                              "left": 698.67,
+                              "top": 225,
+                              "width": 522.67,
+                              "height": 36
+                            },
+                            "snappedFrame": {
+                              "left": 698,
+                              "top": 226,
+                              "width": 522,
+                              "height": 36
+                            },
+                            "children": [],
+                            "text": "Risks to address",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/4zidonyd",
+                              "id": "14",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.2",
+                            "kind": "text",
+                            "name": "quality-risks-item-1",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 21
+                            },
+                            "frame": {
+                              "left": 698.67,
+                              "top": 275,
+                              "width": 522.67,
+                              "height": 21
+                            },
+                            "snappedFrame": {
+                              "left": 698,
+                              "top": 276,
+                              "width": 522,
+                              "height": 22
+                            },
+                            "children": [],
+                            "text": "1. No automated tests yet",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/xkf6dcbu",
+                              "id": "15",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.3",
+                            "kind": "text",
+                            "name": "quality-risks-item-2",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 21
+                            },
+                            "frame": {
+                              "left": 698.67,
+                              "top": 310,
+                              "width": 522.67,
+                              "height": 21
+                            },
+                            "snappedFrame": {
+                              "left": 698,
+                              "top": 310,
+                              "width": 522,
+                              "height": 22
+                            },
+                            "children": [],
+                            "text": "2. Development JWT fallback",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/mtwra5gb",
+                              "id": "16",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.4",
+                            "kind": "text",
+                            "name": "quality-risks-item-3",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 21
+                            },
+                            "frame": {
+                              "left": 698.67,
+                              "top": 345,
+                              "width": 522.67,
+                              "height": 21
+                            },
+                            "snappedFrame": {
+                              "left": 698,
+                              "top": 346,
+                              "width": 522,
+                              "height": 22
+                            },
+                            "children": [],
+                            "text": "3. Encoding artifacts in UI text",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/fepkzupw",
+                              "id": "17",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.5",
+                            "kind": "text",
+                            "name": "quality-risks-item-4",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 21
+                            },
+                            "frame": {
+                              "left": 698.67,
+                              "top": 380,
+                              "width": 522.67,
+                              "height": 21
+                            },
+                            "snappedFrame": {
+                              "left": 698,
+                              "top": 380,
+                              "width": 522,
+                              "height": 22
+                            },
+                            "children": [],
+                            "text": "4. No rate limiting on public lookup",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/83itgfml",
+                              "id": "18",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.6",
+                            "kind": "text",
+                            "name": "quality-risks-item-5",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 21
+                            },
+                            "frame": {
+                              "left": 698.67,
+                              "top": 415,
+                              "width": 522.67,
+                              "height": 21
+                            },
+                            "snappedFrame": {
+                              "left": 698,
+                              "top": 416,
+                              "width": 522,
+                              "height": 22
+                            },
+                            "children": [],
+                            "text": "5. No role-based authorization",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/xobm58z2",
+                              "id": "19",
+                              "kind": "shape"
+                            }
+                          }
+                        ],
+                        "padding": {
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 0,
+                          "left": 0
+                        },
+                        "gap": 14,
+                        "effectiveGap": 14,
+                        "justifyOffset": 0,
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 698.67,
+                          "top": 206,
+                          "width": 522.67,
+                          "height": 744
+                        },
+                        "items": [
+                          {
+                            "path": "0.0.1.1.0.0",
+                            "frame": {
+                              "left": 698.67,
+                              "top": 206,
+                              "width": 86,
+                              "height": 5
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.1",
+                            "frame": {
+                              "left": 698.67,
+                              "top": 225,
+                              "width": 522.67,
+                              "height": 36
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.2",
+                            "frame": {
+                              "left": 698.67,
+                              "top": 275,
+                              "width": 522.67,
+                              "height": 21
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.3",
+                            "frame": {
+                              "left": 698.67,
+                              "top": 310,
+                              "width": 522.67,
+                              "height": 21
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.4",
+                            "frame": {
+                              "left": 698.67,
+                              "top": 345,
+                              "width": 522.67,
+                              "height": 21
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.5",
+                            "frame": {
+                              "left": 698.67,
+                              "top": 380,
+                              "width": 522.67,
+                              "height": 21
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.6",
+                            "frame": {
+                              "left": 698.67,
+                              "top": 415,
+                              "width": 522.67,
+                              "height": 21
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "padding": {
+                      "top": 24,
+                      "right": 26,
+                      "bottom": 24,
+                      "left": 26
+                    },
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 698.67,
+                      "top": 206,
+                      "width": 522.67,
+                      "height": 744
+                    },
+                    "element": {
+                      "aid": "sh/mlkjm1cf",
+                      "id": "12",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.1.2",
+                    "kind": "panel",
+                    "name": "quality-roadmap",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "fill",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 52,
+                      "height": 48
+                    },
+                    "frame": {
+                      "left": 1273.33,
+                      "top": 182,
+                      "width": 574.67,
+                      "height": 792
+                    },
+                    "snappedFrame": {
+                      "left": 1273.33,
+                      "top": 182,
+                      "width": 574.67,
+                      "height": 792
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.2.0",
+                        "kind": "column",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "fill",
+                            "value": 1
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 86,
+                          "height": 230
+                        },
+                        "frame": {
+                          "left": 1299.33,
+                          "top": 206,
+                          "width": 522.67,
+                          "height": 744
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.2.0.0",
+                            "kind": "rule",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fixed",
+                                "value": 86
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 5
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 86,
+                              "height": 5
+                            },
+                            "frame": {
+                              "left": 1299.33,
+                              "top": 206,
+                              "width": 86,
+                              "height": 5
+                            },
+                            "snappedFrame": {
+                              "left": 1300,
+                              "top": 206,
+                              "width": 86,
+                              "height": 5
+                            },
+                            "children": [],
+                            "weight": 5,
+                            "element": {
+                              "aid": "sh/s72x4nap",
+                              "id": "21",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.1",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 36
+                            },
+                            "frame": {
+                              "left": 1299.33,
+                              "top": 225,
+                              "width": 522.67,
+                              "height": 36
+                            },
+                            "snappedFrame": {
+                              "left": 1300,
+                              "top": 226,
+                              "width": 522,
+                              "height": 36
+                            },
+                            "children": [],
+                            "text": "Roadmap",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/3m94fu18",
+                              "id": "22",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.2",
+                            "kind": "text",
+                            "name": "quality-roadmap-item-1",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 21
+                            },
+                            "frame": {
+                              "left": 1299.33,
+                              "top": 275,
+                              "width": 522.67,
+                              "height": 21
+                            },
+                            "snappedFrame": {
+                              "left": 1300,
+                              "top": 276,
+                              "width": 522,
+                              "height": 22
+                            },
+                            "children": [],
+                            "text": "1. API validation library",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/a5gbq1or",
+                              "id": "23",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.3",
+                            "kind": "text",
+                            "name": "quality-roadmap-item-2",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 21
+                            },
+                            "frame": {
+                              "left": 1299.33,
+                              "top": 310,
+                              "width": 522.67,
+                              "height": 21
+                            },
+                            "snappedFrame": {
+                              "left": 1300,
+                              "top": 310,
+                              "width": 522,
+                              "height": 22
+                            },
+                            "children": [],
+                            "text": "2. Unit and integration tests",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/h4byhgn2",
+                              "id": "24",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.4",
+                            "kind": "text",
+                            "name": "quality-roadmap-item-3",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 21
+                            },
+                            "frame": {
+                              "left": 1299.33,
+                              "top": 345,
+                              "width": 522.67,
+                              "height": 21
+                            },
+                            "snappedFrame": {
+                              "left": 1300,
+                              "top": 346,
+                              "width": 522,
+                              "height": 22
+                            },
+                            "children": [],
+                            "text": "3. Repair status timeline",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/sji5snel",
+                              "id": "25",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.5",
+                            "kind": "text",
+                            "name": "quality-roadmap-item-4",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 21
+                            },
+                            "frame": {
+                              "left": 1299.33,
+                              "top": 380,
+                              "width": 522.67,
+                              "height": 21
+                            },
+                            "snappedFrame": {
+                              "left": 1300,
+                              "top": 380,
+                              "width": 522,
+                              "height": 22
+                            },
+                            "children": [],
+                            "text": "4. Invoices and printable job cards",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/3ylc7u54",
+                              "id": "26",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.6",
+                            "kind": "text",
+                            "name": "quality-roadmap-item-5",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 21
+                            },
+                            "frame": {
+                              "left": 1299.33,
+                              "top": 415,
+                              "width": 522.67,
+                              "height": 21
+                            },
+                            "snappedFrame": {
+                              "left": 1300,
+                              "top": 416,
+                              "width": 522,
+                              "height": 22
+                            },
+                            "children": [],
+                            "text": "5. Email or SMS customer updates",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/adsji5sn",
+                              "id": "27",
+                              "kind": "shape"
+                            }
+                          }
+                        ],
+                        "padding": {
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 0,
+                          "left": 0
+                        },
+                        "gap": 14,
+                        "effectiveGap": 14,
+                        "justifyOffset": 0,
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 1299.33,
+                          "top": 206,
+                          "width": 522.67,
+                          "height": 744
+                        },
+                        "items": [
+                          {
+                            "path": "0.0.1.2.0.0",
+                            "frame": {
+                              "left": 1299.33,
+                              "top": 206,
+                              "width": 86,
+                              "height": 5
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.1",
+                            "frame": {
+                              "left": 1299.33,
+                              "top": 225,
+                              "width": 522.67,
+                              "height": 36
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.2",
+                            "frame": {
+                              "left": 1299.33,
+                              "top": 275,
+                              "width": 522.67,
+                              "height": 21
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.3",
+                            "frame": {
+                              "left": 1299.33,
+                              "top": 310,
+                              "width": 522.67,
+                              "height": 21
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.4",
+                            "frame": {
+                              "left": 1299.33,
+                              "top": 345,
+                              "width": 522.67,
+                              "height": 21
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.5",
+                            "frame": {
+                              "left": 1299.33,
+                              "top": 380,
+                              "width": 522.67,
+                              "height": 21
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.6",
+                            "frame": {
+                              "left": 1299.33,
+                              "top": 415,
+                              "width": 522.67,
+                              "height": 21
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "padding": {
+                      "top": 24,
+                      "right": 26,
+                      "bottom": 24,
+                      "left": 26
+                    },
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 1299.33,
+                      "top": 206,
+                      "width": 522.67,
+                      "height": 744
+                    },
+                    "element": {
+                      "aid": "sh/lszqtcj6",
+                      "id": "20",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 26,
+                "effectiveGap": 26,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 72,
+                  "top": 182,
+                  "width": 1776,
+                  "height": 792
+                },
+                "items": [
+                  {
+                    "path": "0.0.1.0",
+                    "frame": {
+                      "left": 72,
+                      "top": 182,
+                      "width": 574.67,
+                      "height": 792
+                    }
+                  },
+                  {
+                    "path": "0.0.1.1",
+                    "frame": {
+                      "left": 672.67,
+                      "top": 182,
+                      "width": 574.67,
+                      "height": 792
+                    }
+                  },
+                  {
+                    "path": "0.0.1.2",
+                    "frame": {
+                      "left": 1273.33,
+                      "top": 182,
+                      "width": 574.67,
+                      "height": 792
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.0.2",
+                "kind": "row",
+                "name": "footer",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 94,
+                  "height": 14
+                },
+                "frame": {
+                  "left": 72,
+                  "top": 1008,
+                  "width": 1776,
+                  "height": 14
+                },
+                "children": [
+                  {
+                    "path": "0.0.2.0",
+                    "kind": "text",
+                    "name": "footer-left",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 14
+                    },
+                    "frame": {
+                      "left": 72,
+                      "top": 1008,
+                      "width": 1682,
+                      "height": 14
+                    },
+                    "snappedFrame": {
+                      "left": 72,
+                      "top": 1008,
+                      "width": 1682,
+                      "height": 14
+                    },
+                    "children": [],
+                    "text": "Repair Manager website report",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/hgn29gr2",
+                      "id": "28",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.2.1",
+                    "kind": "text",
+                    "name": "footer-page",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fixed",
+                        "value": 70
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 70,
+                      "height": 14
+                    },
+                    "frame": {
+                      "left": 1778,
+                      "top": 1008,
+                      "width": 70,
+                      "height": 14
+                    },
+                    "snappedFrame": {
+                      "left": 1778,
+                      "top": 1008,
+                      "width": 70,
+                      "height": 14
+                    },
+                    "children": [],
+                    "text": "9/10",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/svu9knih",
+                      "id": "29",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 24,
+                "effectiveGap": 24,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 72,
+                  "top": 1008,
+                  "width": 1776,
+                  "height": 14
+                },
+                "items": [
+                  {
+                    "path": "0.0.2.0",
+                    "frame": {
+                      "left": 72,
+                      "top": 1008,
+                      "width": 1682,
+                      "height": 14
+                    }
+                  },
+                  {
+                    "path": "0.0.2.1",
+                    "frame": {
+                      "left": 1778,
+                      "top": 1008,
+                      "width": 70,
+                      "height": 14
+                    }
+                  }
+                ]
+              }
+            ],
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "gap": 34,
+            "effectiveGap": 34,
+            "justifyOffset": 0,
+            "align": "start",
+            "justify": "start",
+            "contentFrame": {
+              "left": 72,
+              "top": 58,
+              "width": 1776,
+              "height": 964
+            },
+            "items": [
+              {
+                "path": "0.0.0",
+                "frame": {
+                  "left": 72,
+                  "top": 58,
+                  "width": 1776,
+                  "height": 90
+                }
+              },
+              {
+                "path": "0.0.1",
+                "frame": {
+                  "left": 72,
+                  "top": 182,
+                  "width": 1776,
+                  "height": 792
+                }
+              },
+              {
+                "path": "0.0.2",
+                "frame": {
+                  "left": 72,
+                  "top": 1008,
+                  "width": 1776,
+                  "height": 14
+                }
+              }
+            ]
+          }
+        ],
+        "padding": {
+          "top": 58,
+          "right": 72,
+          "bottom": 58,
+          "left": 72
+        },
+        "align": "start",
+        "justify": "start",
+        "contentFrame": {
+          "left": 72,
+          "top": 58,
+          "width": 1776,
+          "height": 964
+        },
+        "element": {
+          "aid": "sh/29gr2p8n",
+          "id": "1",
+          "kind": "shape"
+        }
+      }
+    }
+  ]
+}

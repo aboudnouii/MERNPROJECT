@@ -1,0 +1,3112 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ebqizt",
+    "id": "ebqizt",
+    "slide": 8,
+    "layoutId": "9594e98a-c731-4fd9-8a27-6976eeb92c8d",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d1d9a579-ab40-4347-8302-d2a3a1b1d825",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "9594e98a-c731-4fd9-8a27-6976eeb92c8d",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d1d9a579-ab40-4347-8302-d2a3a1b1d825",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d1d9a579-ab40-4347-8302-d2a3a1b1d825",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72x4nap4",
+      "id": "1",
+      "name": "slide-background",
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#080A0F",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0nuxc3yl",
+      "id": "2",
+      "name": "slide-title",
+      "bbox": [
+        72,
+        58,
+        1776,
+        54
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.0"
+      },
+      "geometry": "rect",
+      "text": "Deployment and configuration",
+      "textPreview": "Deployment and configuration",
+      "resolvedFontSize": 54,
+      "resolvedTextStyle": {
+        "fontSize": 54,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Deployment and configuration"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Deployment and configuration",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Deployment and configuration",
+              "fontSize": 54,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p8nqxs72",
+      "id": "3",
+      "name": "slide-subtitle",
+      "bbox": [
+        72,
+        124,
+        1776,
+        24
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.1"
+      },
+      "geometry": "rect",
+      "text": "The README defines a practical split deployment: frontend on Vercel, backend on Render, database on MongoDB Atlas.",
+      "textPreview": "The README defines a practical split deployment: frontend on Vercel, backend on Render, database on MongoDB Atlas.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The README defines a practical split deployment: frontend on Vercel, backend on Render, database on MongoDB Atlas."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The README defines a practical split deployment: frontend on Vercel, backend on Render, database on MongoDB Atlas.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "The README defines a practical split deployment: frontend on Vercel, backend on Render, database on MongoDB Atlas.",
+              "fontSize": 24,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/itgfmlkj",
+      "id": "4",
+      "name": "deploy-frontend",
+      "bbox": [
+        72,
+        182,
+        871,
+        210
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#0F1117",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ed8bat4",
+      "id": "5",
+      "bbox": [
+        100,
+        206,
+        816,
+        38
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.0"
+      },
+      "geometry": "rect",
+      "text": "Frontend: Vercel",
+      "textPreview": "Frontend: Vercel",
+      "resolvedFontSize": 37,
+      "resolvedTextStyle": {
+        "fontSize": 37,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Frontend: Vercel"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Frontend: Vercel",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Frontend: Vercel",
+              "fontSize": 37,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0z61032l",
+      "id": "6",
+      "bbox": [
+        100,
+        256,
+        816,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.1"
+      },
+      "geometry": "rect",
+      "text": "Root Directory: frontend",
+      "textPreview": "Root Directory: frontend",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Root Directory: frontend"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Root Directory: frontend",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Root Directory: frontend",
+              "fontSize": 20,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pkzupwb2",
+      "id": "7",
+      "bbox": [
+        100,
+        288,
+        816,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.2"
+      },
+      "geometry": "rect",
+      "text": "Build Command: npm run build",
+      "textPreview": "Build Command: npm run build",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Build Command: npm run build"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Build Command: npm run build",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Build Command: npm run build",
+              "fontSize": 20,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i5sneloj",
+      "id": "8",
+      "bbox": [
+        100,
+        320,
+        816,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.3"
+      },
+      "geometry": "rect",
+      "text": "Output Directory: build",
+      "textPreview": "Output Directory: build",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Output Directory: build"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Output Directory: build",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Output Directory: build",
+              "fontSize": 20,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qpg3ex0",
+      "id": "9",
+      "name": "deploy-backend",
+      "bbox": [
+        977,
+        182,
+        871,
+        210
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#0F1117",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fu18jqh0",
+      "id": "10",
+      "bbox": [
+        1006,
+        206,
+        816,
+        38
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.0"
+      },
+      "geometry": "rect",
+      "text": "Backend: Render",
+      "textPreview": "Backend: Render",
+      "resolvedFontSize": 37,
+      "resolvedTextStyle": {
+        "fontSize": 37,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Backend: Render"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Backend: Render",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Backend: Render",
+              "fontSize": 37,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m94fu18j",
+      "id": "11",
+      "bbox": [
+        1006,
+        256,
+        816,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.1"
+      },
+      "geometry": "rect",
+      "text": "Root Directory: backend",
+      "textPreview": "Root Directory: backend",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Root Directory: backend"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Root Directory: backend",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Root Directory: backend",
+              "fontSize": 20,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0nuxc3y",
+      "id": "12",
+      "bbox": [
+        1006,
+        288,
+        816,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.2"
+      },
+      "geometry": "rect",
+      "text": "Build Command: npm install",
+      "textPreview": "Build Command: npm install",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Build Command: npm install"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Build Command: npm install",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Build Command: npm install",
+              "fontSize": 20,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4fu18jqh",
+      "id": "13",
+      "bbox": [
+        1006,
+        320,
+        816,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.3"
+      },
+      "geometry": "rect",
+      "text": "Start Command: npm start",
+      "textPreview": "Start Command: npm start",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Start Command: npm start"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Start Command: npm start",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Start Command: npm start",
+              "fontSize": 20,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fil0rqd4",
+      "id": "14",
+      "name": "env-panel",
+      "bbox": [
+        72,
+        418,
+        1776,
+        556
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#0F1117",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qxs72x4n",
+      "id": "15",
+      "bbox": [
+        100,
+        442,
+        1720,
+        38
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0.0"
+      },
+      "geometry": "rect",
+      "text": "Environment variables",
+      "textPreview": "Environment variables",
+      "resolvedFontSize": 37,
+      "resolvedTextStyle": {
+        "fontSize": 37,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Environment variables"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Environment variables",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Environment variables",
+              "fontSize": 37,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xobm58z2",
+      "id": "16",
+      "bbox": [
+        100,
+        492,
+        230,
+        18
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0.1.0"
+      },
+      "geometry": "rect",
+      "text": "MONGO_URI",
+      "textPreview": "MONGO_URI",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MONGO_URI"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MONGO_URI",
+          "runs": [
+            {
+              "index": 1,
+              "text": "MONGO_URI",
+              "fontSize": 18,
+              "color": "#10B981"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83itgfml",
+      "id": "17",
+      "bbox": [
+        346,
+        492,
+        1474,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0.1.1"
+      },
+      "geometry": "rect",
+      "text": "MongoDB connection string for local or Atlas database.",
+      "textPreview": "MongoDB connection string for local or Atlas database.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MongoDB connection string for local or Atlas database."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MongoDB connection string for local or Atlas database.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "MongoDB connection string for local or Atlas database.",
+              "fontSize": 20,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fepkzupw",
+      "id": "18",
+      "bbox": [
+        100,
+        558,
+        230,
+        18
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0.2.0"
+      },
+      "geometry": "rect",
+      "text": "JWT_SECRET",
+      "textPreview": "JWT_SECRET",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "JWT_SECRET"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "JWT_SECRET",
+          "runs": [
+            {
+              "index": 1,
+              "text": "JWT_SECRET",
+              "fontSize": 18,
+              "color": "#F59E0B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mtwra5gb",
+      "id": "19",
+      "bbox": [
+        346,
+        558,
+        1474,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0.2.1"
+      },
+      "geometry": "rect",
+      "text": "Signing secret for 7-day staff auth tokens.",
+      "textPreview": "Signing secret for 7-day staff auth tokens.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Signing secret for 7-day staff auth tokens."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Signing secret for 7-day staff auth tokens.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Signing secret for 7-day staff auth tokens.",
+              "fontSize": 20,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u18jqh0f",
+      "id": "20",
+      "bbox": [
+        100,
+        624,
+        230,
+        18
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0.3.0"
+      },
+      "geometry": "rect",
+      "text": "CLIENT_URLS",
+      "textPreview": "CLIENT_URLS",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CLIENT_URLS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CLIENT_URLS",
+          "runs": [
+            {
+              "index": 1,
+              "text": "CLIENT_URLS",
+              "fontSize": 18,
+              "color": "#3B82F6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jm1cfa9w",
+      "id": "21",
+      "bbox": [
+        346,
+        624,
+        1474,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0.3.1"
+      },
+      "geometry": "rect",
+      "text": "Allowed frontend origins for CORS.",
+      "textPreview": "Allowed frontend origins for CORS.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Allowed frontend origins for CORS."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Allowed frontend origins for CORS.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Allowed frontend origins for CORS.",
+              "fontSize": 20,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c7u54zid",
+      "id": "22",
+      "bbox": [
+        100,
+        690,
+        230,
+        18
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0.4.0"
+      },
+      "geometry": "rect",
+      "text": "REACT_APP_API_URL",
+      "textPreview": "REACT_APP_API_URL",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "REACT_APP_API_URL"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "REACT_APP_API_URL",
+          "runs": [
+            {
+              "index": 1,
+              "text": "REACT_APP_API_URL",
+              "fontSize": 18,
+              "color": "#A855F7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1orytsvu",
+      "id": "23",
+      "bbox": [
+        346,
+        690,
+        1474,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0.4.1"
+      },
+      "geometry": "rect",
+      "text": "Frontend API base URL such as the Render /api endpoint.",
+      "textPreview": "Frontend API base URL such as the Render /api endpoint.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Frontend API base URL such as the Render /api endpoint."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Frontend API base URL such as the Render /api endpoint.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Frontend API base URL such as the Render /api endpoint.",
+              "fontSize": 20,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u9knih4b",
+      "id": "24",
+      "name": "deployment-rec",
+      "bbox": [
+        100,
+        756,
+        1720,
+        24
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0.5"
+      },
+      "geometry": "rect",
+      "text": "Production recommendation: remove development fallbacks, restrict database network access, and keep secrets outside source control.",
+      "textPreview": "Production recommendation: remove development fallbacks, restrict database network access, and keep secrets outside source control.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Production recommendation: remove development fallbacks, restrict database network access, and keep secrets outside source control."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Production recommendation: remove development fallbacks, restrict database network access, and keep secrets outside source control.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Production recommendation: remove development fallbacks, restrict database network access, and keep secrets outside source control.",
+              "fontSize": 24,
+              "color": "#F1F5F9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/judg7ads",
+      "id": "25",
+      "name": "footer-left",
+      "bbox": [
+        72,
+        1008,
+        1682,
+        14
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.2.0"
+      },
+      "geometry": "rect",
+      "text": "Repair Manager website report",
+      "textPreview": "Repair Manager website report",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Repair Manager website report"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Repair Manager website report",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Repair Manager website report",
+              "fontSize": 14,
+              "color": "#64748B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cfa9w3m9",
+      "id": "26",
+      "name": "footer-page",
+      "bbox": [
+        1778,
+        1008,
+        70,
+        14
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.2.1"
+      },
+      "geometry": "rect",
+      "text": "8/10",
+      "textPreview": "8/10",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "8/10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "8/10",
+          "runs": [
+            {
+              "index": 1,
+              "text": "8/10",
+              "fontSize": 14,
+              "color": "#64748B"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "baseUnit": 8,
+      "root": {
+        "path": "0",
+        "kind": "panel",
+        "name": "slide-background",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 144,
+          "height": 116
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "snappedFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "column",
+            "name": "slide-root",
+            "requestedSize": {
+              "width": {
+                "mode": "fill",
+                "value": 1
+              },
+              "height": {
+                "mode": "fill",
+                "value": 1
+              }
+            },
+            "intrinsicSize": {
+              "width": 0,
+              "height": 172
+            },
+            "frame": {
+              "left": 72,
+              "top": 58,
+              "width": 1776,
+              "height": 964
+            },
+            "children": [
+              {
+                "path": "0.0.0",
+                "kind": "column",
+                "name": "title-stack",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 0,
+                  "height": 90
+                },
+                "frame": {
+                  "left": 72,
+                  "top": 58,
+                  "width": 1776,
+                  "height": 90
+                },
+                "children": [
+                  {
+                    "path": "0.0.0.0",
+                    "kind": "text",
+                    "name": "slide-title",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 54
+                    },
+                    "frame": {
+                      "left": 72,
+                      "top": 58,
+                      "width": 1776,
+                      "height": 54
+                    },
+                    "snappedFrame": {
+                      "left": 72,
+                      "top": 58,
+                      "width": 1776,
+                      "height": 54
+                    },
+                    "children": [],
+                    "text": "Deployment and configuration",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/0nuxc3yl",
+                      "id": "2",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.0.1",
+                    "kind": "text",
+                    "name": "slide-subtitle",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 24
+                    },
+                    "frame": {
+                      "left": 72,
+                      "top": 124,
+                      "width": 1776,
+                      "height": 24
+                    },
+                    "snappedFrame": {
+                      "left": 72,
+                      "top": 124,
+                      "width": 1776,
+                      "height": 24
+                    },
+                    "children": [],
+                    "text": "The README defines a practical split deployment: frontend on Vercel, backend on Render, database on MongoDB Atlas.",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/p8nqxs72",
+                      "id": "3",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 12,
+                "effectiveGap": 12,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 72,
+                  "top": 58,
+                  "width": 1776,
+                  "height": 90
+                },
+                "items": [
+                  {
+                    "path": "0.0.0.0",
+                    "frame": {
+                      "left": 72,
+                      "top": 58,
+                      "width": 1776,
+                      "height": 54
+                    }
+                  },
+                  {
+                    "path": "0.0.0.1",
+                    "frame": {
+                      "left": 72,
+                      "top": 124,
+                      "width": 1776,
+                      "height": 24
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.0.1",
+                "kind": "grid",
+                "name": "deploy-grid",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "fill",
+                    "value": 1
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 34,
+                  "height": 236
+                },
+                "frame": {
+                  "left": 72,
+                  "top": 182,
+                  "width": 1776,
+                  "height": 792
+                },
+                "children": [
+                  {
+                    "path": "0.0.1.0",
+                    "kind": "panel",
+                    "name": "deploy-frontend",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "fixed",
+                        "value": 210
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 56,
+                      "height": 181
+                    },
+                    "frame": {
+                      "left": 72,
+                      "top": 182,
+                      "width": 871,
+                      "height": 210
+                    },
+                    "snappedFrame": {
+                      "left": 72,
+                      "top": 182,
+                      "width": 871,
+                      "height": 210
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.0.0",
+                        "kind": "column",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 0,
+                          "height": 133
+                        },
+                        "frame": {
+                          "left": 100,
+                          "top": 206,
+                          "width": 815,
+                          "height": 133
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.0.0.0",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 37
+                            },
+                            "frame": {
+                              "left": 100,
+                              "top": 206,
+                              "width": 815,
+                              "height": 37
+                            },
+                            "snappedFrame": {
+                              "left": 100,
+                              "top": 206,
+                              "width": 816,
+                              "height": 38
+                            },
+                            "children": [],
+                            "text": "Frontend: Vercel",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/7ed8bat4",
+                              "id": "5",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.1",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 20
+                            },
+                            "frame": {
+                              "left": 100,
+                              "top": 255,
+                              "width": 815,
+                              "height": 20
+                            },
+                            "snappedFrame": {
+                              "left": 100,
+                              "top": 256,
+                              "width": 816,
+                              "height": 20
+                            },
+                            "children": [],
+                            "text": "Root Directory: frontend",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/0z61032l",
+                              "id": "6",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.2",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 20
+                            },
+                            "frame": {
+                              "left": 100,
+                              "top": 287,
+                              "width": 815,
+                              "height": 20
+                            },
+                            "snappedFrame": {
+                              "left": 100,
+                              "top": 288,
+                              "width": 816,
+                              "height": 20
+                            },
+                            "children": [],
+                            "text": "Build Command: npm run build",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/pkzupwb2",
+                              "id": "7",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.3",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 20
+                            },
+                            "frame": {
+                              "left": 100,
+                              "top": 319,
+                              "width": 815,
+                              "height": 20
+                            },
+                            "snappedFrame": {
+                              "left": 100,
+                              "top": 320,
+                              "width": 816,
+                              "height": 20
+                            },
+                            "children": [],
+                            "text": "Output Directory: build",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/i5sneloj",
+                              "id": "8",
+                              "kind": "shape"
+                            }
+                          }
+                        ],
+                        "padding": {
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 0,
+                          "left": 0
+                        },
+                        "gap": 12,
+                        "effectiveGap": 12,
+                        "justifyOffset": 0,
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 100,
+                          "top": 206,
+                          "width": 815,
+                          "height": 133
+                        },
+                        "items": [
+                          {
+                            "path": "0.0.1.0.0.0",
+                            "frame": {
+                              "left": 100,
+                              "top": 206,
+                              "width": 815,
+                              "height": 37
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.1",
+                            "frame": {
+                              "left": 100,
+                              "top": 255,
+                              "width": 815,
+                              "height": 20
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.2",
+                            "frame": {
+                              "left": 100,
+                              "top": 287,
+                              "width": 815,
+                              "height": 20
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.3",
+                            "frame": {
+                              "left": 100,
+                              "top": 319,
+                              "width": 815,
+                              "height": 20
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "padding": {
+                      "top": 24,
+                      "right": 28,
+                      "bottom": 24,
+                      "left": 28
+                    },
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 100,
+                      "top": 206,
+                      "width": 815,
+                      "height": 162
+                    },
+                    "element": {
+                      "aid": "sh/itgfmlkj",
+                      "id": "4",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.1.1",
+                    "kind": "panel",
+                    "name": "deploy-backend",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "fixed",
+                        "value": 210
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 56,
+                      "height": 181
+                    },
+                    "frame": {
+                      "left": 977,
+                      "top": 182,
+                      "width": 871,
+                      "height": 210
+                    },
+                    "snappedFrame": {
+                      "left": 977,
+                      "top": 182,
+                      "width": 871,
+                      "height": 210
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.1.0",
+                        "kind": "column",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 0,
+                          "height": 133
+                        },
+                        "frame": {
+                          "left": 1005,
+                          "top": 206,
+                          "width": 815,
+                          "height": 133
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.1.0.0",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 37
+                            },
+                            "frame": {
+                              "left": 1005,
+                              "top": 206,
+                              "width": 815,
+                              "height": 37
+                            },
+                            "snappedFrame": {
+                              "left": 1006,
+                              "top": 206,
+                              "width": 816,
+                              "height": 38
+                            },
+                            "children": [],
+                            "text": "Backend: Render",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/fu18jqh0",
+                              "id": "10",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.1",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 20
+                            },
+                            "frame": {
+                              "left": 1005,
+                              "top": 255,
+                              "width": 815,
+                              "height": 20
+                            },
+                            "snappedFrame": {
+                              "left": 1006,
+                              "top": 256,
+                              "width": 816,
+                              "height": 20
+                            },
+                            "children": [],
+                            "text": "Root Directory: backend",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/m94fu18j",
+                              "id": "11",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.2",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 20
+                            },
+                            "frame": {
+                              "left": 1005,
+                              "top": 287,
+                              "width": 815,
+                              "height": 20
+                            },
+                            "snappedFrame": {
+                              "left": 1006,
+                              "top": 288,
+                              "width": 816,
+                              "height": 20
+                            },
+                            "children": [],
+                            "text": "Build Command: npm install",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/x0nuxc3y",
+                              "id": "12",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.3",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 20
+                            },
+                            "frame": {
+                              "left": 1005,
+                              "top": 319,
+                              "width": 815,
+                              "height": 20
+                            },
+                            "snappedFrame": {
+                              "left": 1006,
+                              "top": 320,
+                              "width": 816,
+                              "height": 20
+                            },
+                            "children": [],
+                            "text": "Start Command: npm start",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/4fu18jqh",
+                              "id": "13",
+                              "kind": "shape"
+                            }
+                          }
+                        ],
+                        "padding": {
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 0,
+                          "left": 0
+                        },
+                        "gap": 12,
+                        "effectiveGap": 12,
+                        "justifyOffset": 0,
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 1005,
+                          "top": 206,
+                          "width": 815,
+                          "height": 133
+                        },
+                        "items": [
+                          {
+                            "path": "0.0.1.1.0.0",
+                            "frame": {
+                              "left": 1005,
+                              "top": 206,
+                              "width": 815,
+                              "height": 37
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.1",
+                            "frame": {
+                              "left": 1005,
+                              "top": 255,
+                              "width": 815,
+                              "height": 20
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.2",
+                            "frame": {
+                              "left": 1005,
+                              "top": 287,
+                              "width": 815,
+                              "height": 20
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.3",
+                            "frame": {
+                              "left": 1005,
+                              "top": 319,
+                              "width": 815,
+                              "height": 20
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "padding": {
+                      "top": 24,
+                      "right": 28,
+                      "bottom": 24,
+                      "left": 28
+                    },
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 1005,
+                      "top": 206,
+                      "width": 815,
+                      "height": 162
+                    },
+                    "element": {
+                      "aid": "sh/7qpg3ex0",
+                      "id": "9",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.1.2",
+                    "kind": "panel",
+                    "name": "env-panel",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "fill",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 56,
+                      "height": 48
+                    },
+                    "frame": {
+                      "left": 72,
+                      "top": 418,
+                      "width": 1776,
+                      "height": 556
+                    },
+                    "snappedFrame": {
+                      "left": 72,
+                      "top": 418,
+                      "width": 1776,
+                      "height": 556
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.2.0",
+                        "kind": "column",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "fill",
+                            "value": 1
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 0,
+                          "height": 337
+                        },
+                        "frame": {
+                          "left": 100,
+                          "top": 442,
+                          "width": 1720,
+                          "height": 508
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.2.0.0",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 37
+                            },
+                            "frame": {
+                              "left": 100,
+                              "top": 442,
+                              "width": 1720,
+                              "height": 37
+                            },
+                            "snappedFrame": {
+                              "left": 100,
+                              "top": 442,
+                              "width": 1720,
+                              "height": 38
+                            },
+                            "children": [],
+                            "text": "Environment variables",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/qxs72x4n",
+                              "id": "15",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.1",
+                            "kind": "row",
+                            "name": "env-MONGO-URI",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 54
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 246,
+                              "height": 20
+                            },
+                            "frame": {
+                              "left": 100,
+                              "top": 491,
+                              "width": 1720,
+                              "height": 54
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.2.0.1.0",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 230
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 230,
+                                  "height": 18
+                                },
+                                "frame": {
+                                  "left": 100,
+                                  "top": 491,
+                                  "width": 230,
+                                  "height": 18
+                                },
+                                "snappedFrame": {
+                                  "left": 100,
+                                  "top": 492,
+                                  "width": 230,
+                                  "height": 18
+                                },
+                                "children": [],
+                                "text": "MONGO_URI",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/xobm58z2",
+                                  "id": "16",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.2.0.1.1",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 20
+                                },
+                                "frame": {
+                                  "left": 346,
+                                  "top": 491,
+                                  "width": 1474,
+                                  "height": 20
+                                },
+                                "snappedFrame": {
+                                  "left": 346,
+                                  "top": 492,
+                                  "width": 1474,
+                                  "height": 20
+                                },
+                                "children": [],
+                                "text": "MongoDB connection string for local or Atlas database.",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/83itgfml",
+                                  "id": "17",
+                                  "kind": "shape"
+                                }
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 16,
+                            "effectiveGap": 16,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 100,
+                              "top": 491,
+                              "width": 1720,
+                              "height": 54
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.2.0.1.0",
+                                "frame": {
+                                  "left": 100,
+                                  "top": 491,
+                                  "width": 230,
+                                  "height": 18
+                                }
+                              },
+                              {
+                                "path": "0.0.1.2.0.1.1",
+                                "frame": {
+                                  "left": 346,
+                                  "top": 491,
+                                  "width": 1474,
+                                  "height": 20
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.2.0.2",
+                            "kind": "row",
+                            "name": "env-JWT-SECRET",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 54
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 246,
+                              "height": 20
+                            },
+                            "frame": {
+                              "left": 100,
+                              "top": 557,
+                              "width": 1720,
+                              "height": 54
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.2.0.2.0",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 230
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 230,
+                                  "height": 18
+                                },
+                                "frame": {
+                                  "left": 100,
+                                  "top": 557,
+                                  "width": 230,
+                                  "height": 18
+                                },
+                                "snappedFrame": {
+                                  "left": 100,
+                                  "top": 558,
+                                  "width": 230,
+                                  "height": 18
+                                },
+                                "children": [],
+                                "text": "JWT_SECRET",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/fepkzupw",
+                                  "id": "18",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.2.0.2.1",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 20
+                                },
+                                "frame": {
+                                  "left": 346,
+                                  "top": 557,
+                                  "width": 1474,
+                                  "height": 20
+                                },
+                                "snappedFrame": {
+                                  "left": 346,
+                                  "top": 558,
+                                  "width": 1474,
+                                  "height": 20
+                                },
+                                "children": [],
+                                "text": "Signing secret for 7-day staff auth tokens.",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/mtwra5gb",
+                                  "id": "19",
+                                  "kind": "shape"
+                                }
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 16,
+                            "effectiveGap": 16,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 100,
+                              "top": 557,
+                              "width": 1720,
+                              "height": 54
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.2.0.2.0",
+                                "frame": {
+                                  "left": 100,
+                                  "top": 557,
+                                  "width": 230,
+                                  "height": 18
+                                }
+                              },
+                              {
+                                "path": "0.0.1.2.0.2.1",
+                                "frame": {
+                                  "left": 346,
+                                  "top": 557,
+                                  "width": 1474,
+                                  "height": 20
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.2.0.3",
+                            "kind": "row",
+                            "name": "env-CLIENT-URLS",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 54
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 246,
+                              "height": 20
+                            },
+                            "frame": {
+                              "left": 100,
+                              "top": 623,
+                              "width": 1720,
+                              "height": 54
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.2.0.3.0",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 230
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 230,
+                                  "height": 18
+                                },
+                                "frame": {
+                                  "left": 100,
+                                  "top": 623,
+                                  "width": 230,
+                                  "height": 18
+                                },
+                                "snappedFrame": {
+                                  "left": 100,
+                                  "top": 624,
+                                  "width": 230,
+                                  "height": 18
+                                },
+                                "children": [],
+                                "text": "CLIENT_URLS",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/u18jqh0f",
+                                  "id": "20",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.2.0.3.1",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 20
+                                },
+                                "frame": {
+                                  "left": 346,
+                                  "top": 623,
+                                  "width": 1474,
+                                  "height": 20
+                                },
+                                "snappedFrame": {
+                                  "left": 346,
+                                  "top": 624,
+                                  "width": 1474,
+                                  "height": 20
+                                },
+                                "children": [],
+                                "text": "Allowed frontend origins for CORS.",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/jm1cfa9w",
+                                  "id": "21",
+                                  "kind": "shape"
+                                }
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 16,
+                            "effectiveGap": 16,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 100,
+                              "top": 623,
+                              "width": 1720,
+                              "height": 54
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.2.0.3.0",
+                                "frame": {
+                                  "left": 100,
+                                  "top": 623,
+                                  "width": 230,
+                                  "height": 18
+                                }
+                              },
+                              {
+                                "path": "0.0.1.2.0.3.1",
+                                "frame": {
+                                  "left": 346,
+                                  "top": 623,
+                                  "width": 1474,
+                                  "height": 20
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.2.0.4",
+                            "kind": "row",
+                            "name": "env-REACT-APP-API-URL",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 54
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 246,
+                              "height": 20
+                            },
+                            "frame": {
+                              "left": 100,
+                              "top": 689,
+                              "width": 1720,
+                              "height": 54
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.2.0.4.0",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 230
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 230,
+                                  "height": 18
+                                },
+                                "frame": {
+                                  "left": 100,
+                                  "top": 689,
+                                  "width": 230,
+                                  "height": 18
+                                },
+                                "snappedFrame": {
+                                  "left": 100,
+                                  "top": 690,
+                                  "width": 230,
+                                  "height": 18
+                                },
+                                "children": [],
+                                "text": "REACT_APP_API_URL",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/c7u54zid",
+                                  "id": "22",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.2.0.4.1",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 20
+                                },
+                                "frame": {
+                                  "left": 346,
+                                  "top": 689,
+                                  "width": 1474,
+                                  "height": 20
+                                },
+                                "snappedFrame": {
+                                  "left": 346,
+                                  "top": 690,
+                                  "width": 1474,
+                                  "height": 20
+                                },
+                                "children": [],
+                                "text": "Frontend API base URL such as the Render /api endpoint.",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/1orytsvu",
+                                  "id": "23",
+                                  "kind": "shape"
+                                }
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 16,
+                            "effectiveGap": 16,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 100,
+                              "top": 689,
+                              "width": 1720,
+                              "height": 54
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.2.0.4.0",
+                                "frame": {
+                                  "left": 100,
+                                  "top": 689,
+                                  "width": 230,
+                                  "height": 18
+                                }
+                              },
+                              {
+                                "path": "0.0.1.2.0.4.1",
+                                "frame": {
+                                  "left": 346,
+                                  "top": 689,
+                                  "width": 1474,
+                                  "height": 20
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.2.0.5",
+                            "kind": "text",
+                            "name": "deployment-rec",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 24
+                            },
+                            "frame": {
+                              "left": 100,
+                              "top": 755,
+                              "width": 1720,
+                              "height": 24
+                            },
+                            "snappedFrame": {
+                              "left": 100,
+                              "top": 756,
+                              "width": 1720,
+                              "height": 24
+                            },
+                            "children": [],
+                            "text": "Production recommendation: remove development fallbacks, restrict database network access, and keep secrets outside source control.",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/u9knih4b",
+                              "id": "24",
+                              "kind": "shape"
+                            }
+                          }
+                        ],
+                        "padding": {
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 0,
+                          "left": 0
+                        },
+                        "gap": 12,
+                        "effectiveGap": 12,
+                        "justifyOffset": 0,
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 100,
+                          "top": 442,
+                          "width": 1720,
+                          "height": 508
+                        },
+                        "items": [
+                          {
+                            "path": "0.0.1.2.0.0",
+                            "frame": {
+                              "left": 100,
+                              "top": 442,
+                              "width": 1720,
+                              "height": 37
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.1",
+                            "frame": {
+                              "left": 100,
+                              "top": 491,
+                              "width": 1720,
+                              "height": 54
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.2",
+                            "frame": {
+                              "left": 100,
+                              "top": 557,
+                              "width": 1720,
+                              "height": 54
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.3",
+                            "frame": {
+                              "left": 100,
+                              "top": 623,
+                              "width": 1720,
+                              "height": 54
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.4",
+                            "frame": {
+                              "left": 100,
+                              "top": 689,
+                              "width": 1720,
+                              "height": 54
+                            }
+                          },
+                          {
+                            "path": "0.0.1.2.0.5",
+                            "frame": {
+                              "left": 100,
+                              "top": 755,
+                              "width": 1720,
+                              "height": 24
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "padding": {
+                      "top": 24,
+                      "right": 28,
+                      "bottom": 24,
+                      "left": 28
+                    },
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 100,
+                      "top": 442,
+                      "width": 1720,
+                      "height": 508
+                    },
+                    "element": {
+                      "aid": "sh/fil0rqd4",
+                      "id": "14",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "columnGap": 34,
+                "rowGap": 26,
+                "alignItems": "stretch",
+                "justifyItems": "stretch",
+                "contentFrame": {
+                  "left": 72,
+                  "top": 182,
+                  "width": 1776,
+                  "height": 792
+                },
+                "columns": [
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  },
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  }
+                ],
+                "rows": [
+                  "auto",
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  }
+                ],
+                "autoRows": "auto",
+                "resolvedRows": [
+                  "auto",
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  }
+                ],
+                "columnSizes": [
+                  871,
+                  871
+                ],
+                "rowSizes": [
+                  210,
+                  556
+                ],
+                "cells": [
+                  {
+                    "path": "0.0.1.0",
+                    "column": 0,
+                    "row": 0,
+                    "columnSpan": 1,
+                    "rowSpan": 1,
+                    "cellFrame": {
+                      "left": 72,
+                      "top": 182,
+                      "width": 871,
+                      "height": 210
+                    }
+                  },
+                  {
+                    "path": "0.0.1.1",
+                    "column": 1,
+                    "row": 0,
+                    "columnSpan": 1,
+                    "rowSpan": 1,
+                    "cellFrame": {
+                      "left": 977,
+                      "top": 182,
+                      "width": 871,
+                      "height": 210
+                    }
+                  },
+                  {
+                    "path": "0.0.1.2",
+                    "column": 0,
+                    "row": 1,
+                    "columnSpan": 2,
+                    "rowSpan": 1,
+                    "cellFrame": {
+                      "left": 72,
+                      "top": 418,
+                      "width": 1776,
+                      "height": 556
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.0.2",
+                "kind": "row",
+                "name": "footer",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 94,
+                  "height": 14
+                },
+                "frame": {
+                  "left": 72,
+                  "top": 1008,
+                  "width": 1776,
+                  "height": 14
+                },
+                "children": [
+                  {
+                    "path": "0.0.2.0",
+                    "kind": "text",
+                    "name": "footer-left",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 14
+                    },
+                    "frame": {
+                      "left": 72,
+                      "top": 1008,
+                      "width": 1682,
+                      "height": 14
+                    },
+                    "snappedFrame": {
+                      "left": 72,
+                      "top": 1008,
+                      "width": 1682,
+                      "height": 14
+                    },
+                    "children": [],
+                    "text": "Repair Manager website report",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/judg7ads",
+                      "id": "25",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.2.1",
+                    "kind": "text",
+                    "name": "footer-page",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fixed",
+                        "value": 70
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 70,
+                      "height": 14
+                    },
+                    "frame": {
+                      "left": 1778,
+                      "top": 1008,
+                      "width": 70,
+                      "height": 14
+                    },
+                    "snappedFrame": {
+                      "left": 1778,
+                      "top": 1008,
+                      "width": 70,
+                      "height": 14
+                    },
+                    "children": [],
+                    "text": "8/10",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/cfa9w3m9",
+                      "id": "26",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 24,
+                "effectiveGap": 24,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 72,
+                  "top": 1008,
+                  "width": 1776,
+                  "height": 14
+                },
+                "items": [
+                  {
+                    "path": "0.0.2.0",
+                    "frame": {
+                      "left": 72,
+                      "top": 1008,
+                      "width": 1682,
+                      "height": 14
+                    }
+                  },
+                  {
+                    "path": "0.0.2.1",
+                    "frame": {
+                      "left": 1778,
+                      "top": 1008,
+                      "width": 70,
+                      "height": 14
+                    }
+                  }
+                ]
+              }
+            ],
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "gap": 34,
+            "effectiveGap": 34,
+            "justifyOffset": 0,
+            "align": "start",
+            "justify": "start",
+            "contentFrame": {
+              "left": 72,
+              "top": 58,
+              "width": 1776,
+              "height": 964
+            },
+            "items": [
+              {
+                "path": "0.0.0",
+                "frame": {
+                  "left": 72,
+                  "top": 58,
+                  "width": 1776,
+                  "height": 90
+                }
+              },
+              {
+                "path": "0.0.1",
+                "frame": {
+                  "left": 72,
+                  "top": 182,
+                  "width": 1776,
+                  "height": 792
+                }
+              },
+              {
+                "path": "0.0.2",
+                "frame": {
+                  "left": 72,
+                  "top": 1008,
+                  "width": 1776,
+                  "height": 14
+                }
+              }
+            ]
+          }
+        ],
+        "padding": {
+          "top": 58,
+          "right": 72,
+          "bottom": 58,
+          "left": 72
+        },
+        "align": "start",
+        "justify": "start",
+        "contentFrame": {
+          "left": 72,
+          "top": 58,
+          "width": 1776,
+          "height": 964
+        },
+        "element": {
+          "aid": "sh/72x4nap4",
+          "id": "1",
+          "kind": "shape"
+        }
+      }
+    }
+  ]
+}

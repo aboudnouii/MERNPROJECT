@@ -1,0 +1,5084 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/5odleu",
+    "id": "5odleu",
+    "slide": 7,
+    "layoutId": "9594e98a-c731-4fd9-8a27-6976eeb92c8d",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d1d9a579-ab40-4347-8302-d2a3a1b1d825",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "9594e98a-c731-4fd9-8a27-6976eeb92c8d",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d1d9a579-ab40-4347-8302-d2a3a1b1d825",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d1d9a579-ab40-4347-8302-d2a3a1b1d825",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0je9cvix",
+      "id": "1",
+      "name": "slide-background",
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#080A0F",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/byhgn29g",
+      "id": "2",
+      "name": "slide-title",
+      "bbox": [
+        72,
+        58,
+        1776,
+        54
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.0"
+      },
+      "geometry": "rect",
+      "text": "Core user workflows",
+      "textPreview": "Core user workflows",
+      "resolvedFontSize": 54,
+      "resolvedTextStyle": {
+        "fontSize": 54,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Core user workflows"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Core user workflows",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Core user workflows",
+              "fontSize": 54,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/idonyd0z",
+      "id": "3",
+      "name": "slide-subtitle",
+      "bbox": [
+        72,
+        124,
+        1776,
+        24
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.1"
+      },
+      "geometry": "rect",
+      "text": "The website supports one operational loop for staff and one lightweight status loop for customers.",
+      "textPreview": "The website supports one operational loop for staff and one lightweight status loop for customers.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The website supports one operational loop for staff and one lightweight status loop for customers."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The website supports one operational loop for staff and one lightweight status loop for customers.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "The website supports one operational loop for staff and one lightweight status loop for customers.",
+              "fontSize": 24,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcj6tova",
+      "id": "4",
+      "name": "staff-flow",
+      "bbox": [
+        72,
+        182,
+        871,
+        792
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#0F1117",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0rqd4vmt",
+      "id": "5",
+      "bbox": [
+        102,
+        210,
+        812,
+        40
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.0"
+      },
+      "geometry": "rect",
+      "text": "Staff workflow",
+      "textPreview": "Staff workflow",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "fontSize": 39,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Staff workflow"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Staff workflow",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Staff workflow",
+              "fontSize": 39,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6xkf6dc",
+      "id": "6",
+      "bbox": [
+        102,
+        266,
+        110,
+        5
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.1"
+      },
+      "geometry": "rect",
+      "fillColor": "#F59E0B",
+      "lineColor": "#F59E0B",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il0rqd4v",
+      "id": "7",
+      "bbox": [
+        102,
+        286,
+        62,
+        62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.2.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#F59E0B",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tovahoza",
+      "id": "8",
+      "bbox": [
+        114,
+        298,
+        38,
+        28
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.2.0.0"
+      },
+      "geometry": "rect",
+      "text": "1",
+      "textPreview": "1",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1",
+          "runs": [
+            {
+              "index": 1,
+              "text": "1",
+              "fontSize": 28,
+              "color": "#090B10",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/032lszqt",
+      "id": "9",
+      "bbox": [
+        182,
+        286,
+        732,
+        26
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.2.1.0"
+      },
+      "geometry": "rect",
+      "text": "Authenticate",
+      "textPreview": "Authenticate",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Authenticate"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Authenticate",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Authenticate",
+              "fontSize": 25,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61032lsz",
+      "id": "10",
+      "bbox": [
+        182,
+        316,
+        732,
+        18
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.2.1.1"
+      },
+      "geometry": "rect",
+      "text": "Signup or login returns user profile and JWT token.",
+      "textPreview": "Signup or login returns user profile and JWT token.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Signup or login returns user profile and JWT token."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Signup or login returns user profile and JWT token.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Signup or login returns user profile and JWT token.",
+              "fontSize": 18,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmtwra5g",
+      "id": "11",
+      "bbox": [
+        102,
+        388,
+        62,
+        62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.3.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#F59E0B",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o7qpg3ex",
+      "id": "12",
+      "bbox": [
+        114,
+        400,
+        38,
+        28
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.3.0.0"
+      },
+      "geometry": "rect",
+      "text": "2",
+      "textPreview": "2",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2",
+          "runs": [
+            {
+              "index": 1,
+              "text": "2",
+              "fontSize": 28,
+              "color": "#090B10",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dsji5sne",
+      "id": "13",
+      "bbox": [
+        182,
+        388,
+        732,
+        26
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.3.1.0"
+      },
+      "geometry": "rect",
+      "text": "Create job",
+      "textPreview": "Create job",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Create job"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Create job",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Create job",
+              "fontSize": 25,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6dcbulwv",
+      "id": "14",
+      "bbox": [
+        182,
+        418,
+        732,
+        18
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.3.1.1"
+      },
+      "geometry": "rect",
+      "text": "RepairForm posts customer, car, issue, status, and cost data.",
+      "textPreview": "RepairForm posts customer, car, issue, status, and cost data.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "RepairForm posts customer, car, issue, status, and cost data."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "RepairForm posts customer, car, issue, status, and cost data.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "RepairForm posts customer, car, issue, status, and cost data.",
+              "fontSize": 18,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vy90je9c",
+      "id": "15",
+      "bbox": [
+        102,
+        490,
+        62,
+        62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.4.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#F59E0B",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oj2t83it",
+      "id": "16",
+      "bbox": [
+        114,
+        502,
+        38,
+        28
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.4.0.0"
+      },
+      "geometry": "rect",
+      "text": "3",
+      "textPreview": "3",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3",
+          "runs": [
+            {
+              "index": 1,
+              "text": "3",
+              "fontSize": 28,
+              "color": "#090B10",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d4vmtwra",
+      "id": "17",
+      "bbox": [
+        182,
+        490,
+        732,
+        26
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.4.1.0"
+      },
+      "geometry": "rect",
+      "text": "Operate dashboard",
+      "textPreview": "Operate dashboard",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Operate dashboard"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Operate dashboard",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Operate dashboard",
+              "fontSize": 25,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hcrmhk3",
+      "id": "18",
+      "bbox": [
+        182,
+        520,
+        732,
+        18
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.4.1.1"
+      },
+      "geometry": "rect",
+      "text": "Staff search, filter, edit, delete, and complete repair jobs.",
+      "textPreview": "Staff search, filter, edit, delete, and complete repair jobs.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Staff search, filter, edit, delete, and complete repair jobs."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Staff search, filter, edit, delete, and complete repair jobs.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Staff search, filter, edit, delete, and complete repair jobs.",
+              "fontSize": 18,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z25kb6xk",
+      "id": "19",
+      "bbox": [
+        102,
+        592,
+        62,
+        62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.5.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#F59E0B",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rytsvu9k",
+      "id": "20",
+      "bbox": [
+        114,
+        604,
+        38,
+        28
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.5.0.0"
+      },
+      "geometry": "rect",
+      "text": "4",
+      "textPreview": "4",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4",
+          "runs": [
+            {
+              "index": 1,
+              "text": "4",
+              "fontSize": 28,
+              "color": "#090B10",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yd0z6103",
+      "id": "21",
+      "bbox": [
+        182,
+        592,
+        732,
+        26
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.5.1.0"
+      },
+      "geometry": "rect",
+      "text": "Review metrics",
+      "textPreview": "Review metrics",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Review metrics"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Review metrics",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Review metrics",
+              "fontSize": 25,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/90je9cvi",
+      "id": "22",
+      "bbox": [
+        182,
+        622,
+        732,
+        18
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.5.1.1"
+      },
+      "geometry": "rect",
+      "text": "Dashboard recomputes workload and revenue statistics.",
+      "textPreview": "Dashboard recomputes workload and revenue statistics.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Dashboard recomputes workload and revenue statistics."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Dashboard recomputes workload and revenue statistics.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Dashboard recomputes workload and revenue statistics.",
+              "fontSize": 18,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gfmlkjm1",
+      "id": "23",
+      "name": "customer-flow",
+      "bbox": [
+        977,
+        182,
+        871,
+        792
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#0F1117",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rmhk3q5o",
+      "id": "24",
+      "bbox": [
+        1008,
+        210,
+        812,
+        40
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.0"
+      },
+      "geometry": "rect",
+      "text": "Customer workflow",
+      "textPreview": "Customer workflow",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "fontSize": 39,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Customer workflow"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Customer workflow",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Customer workflow",
+              "fontSize": 39,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y1kre1w7",
+      "id": "25",
+      "bbox": [
+        1008,
+        266,
+        110,
+        5
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.1"
+      },
+      "geometry": "rect",
+      "fillColor": "#10B981",
+      "lineColor": "#10B981",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9s36hcrm",
+      "id": "26",
+      "bbox": [
+        1007,
+        286,
+        62,
+        62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.2.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#10B981",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g7adsji5",
+      "id": "27",
+      "bbox": [
+        1020,
+        298,
+        38,
+        28
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.2.0.0"
+      },
+      "geometry": "rect",
+      "text": "1",
+      "textPreview": "1",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1",
+          "runs": [
+            {
+              "index": 1,
+              "text": "1",
+              "fontSize": 28,
+              "color": "#090B10",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nih4byhg",
+      "id": "28",
+      "bbox": [
+        1088,
+        286,
+        732,
+        26
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.2.1.0"
+      },
+      "geometry": "rect",
+      "text": "Receive code",
+      "textPreview": "Receive code",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Receive code"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Receive code",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Receive code",
+              "fontSize": 25,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yxobm58z",
+      "id": "29",
+      "bbox": [
+        1088,
+        316,
+        732,
+        18
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.2.1.1"
+      },
+      "geometry": "rect",
+      "text": "Garage shares a generated RM tracking code.",
+      "textPreview": "Garage shares a generated RM tracking code.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Garage shares a generated RM tracking code."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Garage shares a generated RM tracking code.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Garage shares a generated RM tracking code.",
+              "fontSize": 18,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s72x4nap",
+      "id": "30",
+      "bbox": [
+        1007,
+        388,
+        62,
+        62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.3.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#10B981",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lszqtcj6",
+      "id": "31",
+      "bbox": [
+        1020,
+        400,
+        38,
+        28
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.3.0.0"
+      },
+      "geometry": "rect",
+      "text": "2",
+      "textPreview": "2",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2",
+          "runs": [
+            {
+              "index": 1,
+              "text": "2",
+              "fontSize": 28,
+              "color": "#090B10",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5gbq1or",
+      "id": "32",
+      "bbox": [
+        1088,
+        388,
+        732,
+        26
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.3.1.0"
+      },
+      "geometry": "rect",
+      "text": "Open portal",
+      "textPreview": "Open portal",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Open portal"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Open portal",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Open portal",
+              "fontSize": 25,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3m94fu18",
+      "id": "33",
+      "bbox": [
+        1088,
+        418,
+        732,
+        18
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.3.1.1"
+      },
+      "geometry": "rect",
+      "text": "Customer switches from login page to CustomerTrack.",
+      "textPreview": "Customer switches from login page to CustomerTrack.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Customer switches from login page to CustomerTrack."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Customer switches from login page to CustomerTrack.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Customer switches from login page to CustomerTrack.",
+              "fontSize": 18,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sji5snel",
+      "id": "34",
+      "bbox": [
+        1007,
+        490,
+        62,
+        62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.4.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#10B981",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4byhgn2",
+      "id": "35",
+      "bbox": [
+        1020,
+        502,
+        38,
+        28
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.4.0.0"
+      },
+      "geometry": "rect",
+      "text": "3",
+      "textPreview": "3",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3",
+          "runs": [
+            {
+              "index": 1,
+              "text": "3",
+              "fontSize": 28,
+              "color": "#090B10",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adsji5sn",
+      "id": "36",
+      "bbox": [
+        1088,
+        490,
+        732,
+        26
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.4.1.0"
+      },
+      "geometry": "rect",
+      "text": "Lookup repair",
+      "textPreview": "Lookup repair",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Lookup repair"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Lookup repair",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Lookup repair",
+              "fontSize": 25,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ylc7u54",
+      "id": "37",
+      "bbox": [
+        1088,
+        520,
+        732,
+        18
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.4.1.1"
+      },
+      "geometry": "rect",
+      "text": "Frontend calls the public tracking endpoint.",
+      "textPreview": "Frontend calls the public tracking endpoint.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Frontend calls the public tracking endpoint."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Frontend calls the public tracking endpoint.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Frontend calls the public tracking endpoint.",
+              "fontSize": 18,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svu9knih",
+      "id": "38",
+      "bbox": [
+        1007,
+        592,
+        62,
+        62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.5.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#10B981",
+      "lineColor": "#D7DEE7",
+      "lineWidth": 1
+    },
+    {
+      "order": 39,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgn29gr2",
+      "id": "39",
+      "bbox": [
+        1020,
+        604,
+        38,
+        28
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.5.0.0"
+      },
+      "geometry": "rect",
+      "text": "4",
+      "textPreview": "4",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4",
+          "runs": [
+            {
+              "index": 1,
+              "text": "4",
+              "fontSize": 28,
+              "color": "#090B10",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 40,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0nuxc3y",
+      "id": "40",
+      "bbox": [
+        1088,
+        592,
+        732,
+        26
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.5.1.0"
+      },
+      "geometry": "rect",
+      "text": "Read status",
+      "textPreview": "Read status",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Read status"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Read status",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Read status",
+              "fontSize": 25,
+              "color": "#F1F5F9",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 41,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4fu18jqh",
+      "id": "41",
+      "bbox": [
+        1088,
+        622,
+        732,
+        18
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.5.1.1"
+      },
+      "geometry": "rect",
+      "text": "Progress steps summarize received, in progress, and completed states.",
+      "textPreview": "Progress steps summarize received, in progress, and completed states.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Progress steps summarize received, in progress, and completed states."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Progress steps summarize received, in progress, and completed states.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Progress steps summarize received, in progress, and completed states.",
+              "fontSize": 18,
+              "color": "#94A3B8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 42,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fu18jqh0",
+      "id": "42",
+      "name": "footer-left",
+      "bbox": [
+        72,
+        1008,
+        1682,
+        14
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.2.0"
+      },
+      "geometry": "rect",
+      "text": "Repair Manager website report",
+      "textPreview": "Repair Manager website report",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Repair Manager website report"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Repair Manager website report",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Repair Manager website report",
+              "fontSize": 14,
+              "color": "#64748B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 43,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m94fu18j",
+      "id": "43",
+      "name": "footer-page",
+      "bbox": [
+        1778,
+        1008,
+        70,
+        14
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.2.1"
+      },
+      "geometry": "rect",
+      "text": "7/10",
+      "textPreview": "7/10",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "7/10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "7/10",
+          "runs": [
+            {
+              "index": 1,
+              "text": "7/10",
+              "fontSize": 14,
+              "color": "#64748B"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "baseUnit": 8,
+      "root": {
+        "path": "0",
+        "kind": "panel",
+        "name": "slide-background",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 144,
+          "height": 116
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "snappedFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "column",
+            "name": "slide-root",
+            "requestedSize": {
+              "width": {
+                "mode": "fill",
+                "value": 1
+              },
+              "height": {
+                "mode": "fill",
+                "value": 1
+              }
+            },
+            "intrinsicSize": {
+              "width": 0,
+              "height": 172
+            },
+            "frame": {
+              "left": 72,
+              "top": 58,
+              "width": 1776,
+              "height": 964
+            },
+            "children": [
+              {
+                "path": "0.0.0",
+                "kind": "column",
+                "name": "title-stack",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 0,
+                  "height": 90
+                },
+                "frame": {
+                  "left": 72,
+                  "top": 58,
+                  "width": 1776,
+                  "height": 90
+                },
+                "children": [
+                  {
+                    "path": "0.0.0.0",
+                    "kind": "text",
+                    "name": "slide-title",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 54
+                    },
+                    "frame": {
+                      "left": 72,
+                      "top": 58,
+                      "width": 1776,
+                      "height": 54
+                    },
+                    "snappedFrame": {
+                      "left": 72,
+                      "top": 58,
+                      "width": 1776,
+                      "height": 54
+                    },
+                    "children": [],
+                    "text": "Core user workflows",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/byhgn29g",
+                      "id": "2",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.0.1",
+                    "kind": "text",
+                    "name": "slide-subtitle",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 24
+                    },
+                    "frame": {
+                      "left": 72,
+                      "top": 124,
+                      "width": 1776,
+                      "height": 24
+                    },
+                    "snappedFrame": {
+                      "left": 72,
+                      "top": 124,
+                      "width": 1776,
+                      "height": 24
+                    },
+                    "children": [],
+                    "text": "The website supports one operational loop for staff and one lightweight status loop for customers.",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/idonyd0z",
+                      "id": "3",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 12,
+                "effectiveGap": 12,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 72,
+                  "top": 58,
+                  "width": 1776,
+                  "height": 90
+                },
+                "items": [
+                  {
+                    "path": "0.0.0.0",
+                    "frame": {
+                      "left": 72,
+                      "top": 58,
+                      "width": 1776,
+                      "height": 54
+                    }
+                  },
+                  {
+                    "path": "0.0.0.1",
+                    "frame": {
+                      "left": 72,
+                      "top": 124,
+                      "width": 1776,
+                      "height": 24
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.0.1",
+                "kind": "row",
+                "name": "workflow-body",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "fill",
+                    "value": 1
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 34,
+                  "height": 0
+                },
+                "frame": {
+                  "left": 72,
+                  "top": 182,
+                  "width": 1776,
+                  "height": 792
+                },
+                "children": [
+                  {
+                    "path": "0.0.1.0",
+                    "kind": "panel",
+                    "name": "staff-flow",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "fill",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 60,
+                      "height": 56
+                    },
+                    "frame": {
+                      "left": 72,
+                      "top": 182,
+                      "width": 871,
+                      "height": 792
+                    },
+                    "snappedFrame": {
+                      "left": 72,
+                      "top": 182,
+                      "width": 871,
+                      "height": 792
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.0.0",
+                        "kind": "column",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "fill",
+                            "value": 1
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 110,
+                          "height": 468
+                        },
+                        "frame": {
+                          "left": 102,
+                          "top": 210,
+                          "width": 811,
+                          "height": 736
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.0.0.0",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 39
+                            },
+                            "frame": {
+                              "left": 102,
+                              "top": 210,
+                              "width": 811,
+                              "height": 39
+                            },
+                            "snappedFrame": {
+                              "left": 102,
+                              "top": 210,
+                              "width": 812,
+                              "height": 40
+                            },
+                            "children": [],
+                            "text": "Staff workflow",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/0rqd4vmt",
+                              "id": "5",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.1",
+                            "kind": "rule",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fixed",
+                                "value": 110
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 5
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 110,
+                              "height": 5
+                            },
+                            "frame": {
+                              "left": 102,
+                              "top": 265,
+                              "width": 110,
+                              "height": 5
+                            },
+                            "snappedFrame": {
+                              "left": 102,
+                              "top": 266,
+                              "width": 110,
+                              "height": 5
+                            },
+                            "children": [],
+                            "weight": 5,
+                            "element": {
+                              "aid": "sh/b6xkf6dc",
+                              "id": "6",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.2",
+                            "kind": "row",
+                            "name": "workflow-step-1",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 86
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 80,
+                              "height": 62
+                            },
+                            "frame": {
+                              "left": 102,
+                              "top": 286,
+                              "width": 811,
+                              "height": 86
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.0.0.2.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 62
+                                  },
+                                  "height": {
+                                    "mode": "fixed",
+                                    "value": 62
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 24,
+                                  "height": 52
+                                },
+                                "frame": {
+                                  "left": 102,
+                                  "top": 286,
+                                  "width": 62,
+                                  "height": 62
+                                },
+                                "snappedFrame": {
+                                  "left": 102,
+                                  "top": 286,
+                                  "width": 62,
+                                  "height": 62
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.0.0.2.0.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 28
+                                    },
+                                    "frame": {
+                                      "left": 114,
+                                      "top": 298,
+                                      "width": 38,
+                                      "height": 28
+                                    },
+                                    "snappedFrame": {
+                                      "left": 114,
+                                      "top": 298,
+                                      "width": 38,
+                                      "height": 28
+                                    },
+                                    "children": [],
+                                    "text": "1",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/tovahoza",
+                                      "id": "8",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 12,
+                                  "right": 12,
+                                  "bottom": 12,
+                                  "left": 12
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 114,
+                                  "top": 298,
+                                  "width": 38,
+                                  "height": 38
+                                },
+                                "element": {
+                                  "aid": "sh/il0rqd4v",
+                                  "id": "7",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.0.0.2.1",
+                                "kind": "column",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 47
+                                },
+                                "frame": {
+                                  "left": 182,
+                                  "top": 286,
+                                  "width": 731,
+                                  "height": 47
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.0.0.2.1.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 25
+                                    },
+                                    "frame": {
+                                      "left": 182,
+                                      "top": 286,
+                                      "width": 731,
+                                      "height": 25
+                                    },
+                                    "snappedFrame": {
+                                      "left": 182,
+                                      "top": 286,
+                                      "width": 732,
+                                      "height": 26
+                                    },
+                                    "children": [],
+                                    "text": "Authenticate",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/032lszqt",
+                                      "id": "9",
+                                      "kind": "shape"
+                                    }
+                                  },
+                                  {
+                                    "path": "0.0.1.0.0.2.1.1",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 18
+                                    },
+                                    "frame": {
+                                      "left": 182,
+                                      "top": 315,
+                                      "width": 731,
+                                      "height": 18
+                                    },
+                                    "snappedFrame": {
+                                      "left": 182,
+                                      "top": 316,
+                                      "width": 732,
+                                      "height": 18
+                                    },
+                                    "children": [],
+                                    "text": "Signup or login returns user profile and JWT token.",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/61032lsz",
+                                      "id": "10",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 0,
+                                  "right": 0,
+                                  "bottom": 0,
+                                  "left": 0
+                                },
+                                "gap": 4,
+                                "effectiveGap": 4,
+                                "justifyOffset": 0,
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 182,
+                                  "top": 286,
+                                  "width": 731,
+                                  "height": 47
+                                },
+                                "items": [
+                                  {
+                                    "path": "0.0.1.0.0.2.1.0",
+                                    "frame": {
+                                      "left": 182,
+                                      "top": 286,
+                                      "width": 731,
+                                      "height": 25
+                                    }
+                                  },
+                                  {
+                                    "path": "0.0.1.0.0.2.1.1",
+                                    "frame": {
+                                      "left": 182,
+                                      "top": 315,
+                                      "width": 731,
+                                      "height": 18
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 18,
+                            "effectiveGap": 18,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 102,
+                              "top": 286,
+                              "width": 811,
+                              "height": 86
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.0.0.2.0",
+                                "frame": {
+                                  "left": 102,
+                                  "top": 286,
+                                  "width": 62,
+                                  "height": 62
+                                }
+                              },
+                              {
+                                "path": "0.0.1.0.0.2.1",
+                                "frame": {
+                                  "left": 182,
+                                  "top": 286,
+                                  "width": 731,
+                                  "height": 47
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.0.0.3",
+                            "kind": "row",
+                            "name": "workflow-step-2",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 86
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 80,
+                              "height": 62
+                            },
+                            "frame": {
+                              "left": 102,
+                              "top": 388,
+                              "width": 811,
+                              "height": 86
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.0.0.3.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 62
+                                  },
+                                  "height": {
+                                    "mode": "fixed",
+                                    "value": 62
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 24,
+                                  "height": 52
+                                },
+                                "frame": {
+                                  "left": 102,
+                                  "top": 388,
+                                  "width": 62,
+                                  "height": 62
+                                },
+                                "snappedFrame": {
+                                  "left": 102,
+                                  "top": 388,
+                                  "width": 62,
+                                  "height": 62
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.0.0.3.0.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 28
+                                    },
+                                    "frame": {
+                                      "left": 114,
+                                      "top": 400,
+                                      "width": 38,
+                                      "height": 28
+                                    },
+                                    "snappedFrame": {
+                                      "left": 114,
+                                      "top": 400,
+                                      "width": 38,
+                                      "height": 28
+                                    },
+                                    "children": [],
+                                    "text": "2",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/o7qpg3ex",
+                                      "id": "12",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 12,
+                                  "right": 12,
+                                  "bottom": 12,
+                                  "left": 12
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 114,
+                                  "top": 400,
+                                  "width": 38,
+                                  "height": 38
+                                },
+                                "element": {
+                                  "aid": "sh/vmtwra5g",
+                                  "id": "11",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.0.0.3.1",
+                                "kind": "column",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 47
+                                },
+                                "frame": {
+                                  "left": 182,
+                                  "top": 388,
+                                  "width": 731,
+                                  "height": 47
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.0.0.3.1.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 25
+                                    },
+                                    "frame": {
+                                      "left": 182,
+                                      "top": 388,
+                                      "width": 731,
+                                      "height": 25
+                                    },
+                                    "snappedFrame": {
+                                      "left": 182,
+                                      "top": 388,
+                                      "width": 732,
+                                      "height": 26
+                                    },
+                                    "children": [],
+                                    "text": "Create job",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/dsji5sne",
+                                      "id": "13",
+                                      "kind": "shape"
+                                    }
+                                  },
+                                  {
+                                    "path": "0.0.1.0.0.3.1.1",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 18
+                                    },
+                                    "frame": {
+                                      "left": 182,
+                                      "top": 417,
+                                      "width": 731,
+                                      "height": 18
+                                    },
+                                    "snappedFrame": {
+                                      "left": 182,
+                                      "top": 418,
+                                      "width": 732,
+                                      "height": 18
+                                    },
+                                    "children": [],
+                                    "text": "RepairForm posts customer, car, issue, status, and cost data.",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/6dcbulwv",
+                                      "id": "14",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 0,
+                                  "right": 0,
+                                  "bottom": 0,
+                                  "left": 0
+                                },
+                                "gap": 4,
+                                "effectiveGap": 4,
+                                "justifyOffset": 0,
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 182,
+                                  "top": 388,
+                                  "width": 731,
+                                  "height": 47
+                                },
+                                "items": [
+                                  {
+                                    "path": "0.0.1.0.0.3.1.0",
+                                    "frame": {
+                                      "left": 182,
+                                      "top": 388,
+                                      "width": 731,
+                                      "height": 25
+                                    }
+                                  },
+                                  {
+                                    "path": "0.0.1.0.0.3.1.1",
+                                    "frame": {
+                                      "left": 182,
+                                      "top": 417,
+                                      "width": 731,
+                                      "height": 18
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 18,
+                            "effectiveGap": 18,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 102,
+                              "top": 388,
+                              "width": 811,
+                              "height": 86
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.0.0.3.0",
+                                "frame": {
+                                  "left": 102,
+                                  "top": 388,
+                                  "width": 62,
+                                  "height": 62
+                                }
+                              },
+                              {
+                                "path": "0.0.1.0.0.3.1",
+                                "frame": {
+                                  "left": 182,
+                                  "top": 388,
+                                  "width": 731,
+                                  "height": 47
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.0.0.4",
+                            "kind": "row",
+                            "name": "workflow-step-3",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 86
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 80,
+                              "height": 62
+                            },
+                            "frame": {
+                              "left": 102,
+                              "top": 490,
+                              "width": 811,
+                              "height": 86
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.0.0.4.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 62
+                                  },
+                                  "height": {
+                                    "mode": "fixed",
+                                    "value": 62
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 24,
+                                  "height": 52
+                                },
+                                "frame": {
+                                  "left": 102,
+                                  "top": 490,
+                                  "width": 62,
+                                  "height": 62
+                                },
+                                "snappedFrame": {
+                                  "left": 102,
+                                  "top": 490,
+                                  "width": 62,
+                                  "height": 62
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.0.0.4.0.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 28
+                                    },
+                                    "frame": {
+                                      "left": 114,
+                                      "top": 502,
+                                      "width": 38,
+                                      "height": 28
+                                    },
+                                    "snappedFrame": {
+                                      "left": 114,
+                                      "top": 502,
+                                      "width": 38,
+                                      "height": 28
+                                    },
+                                    "children": [],
+                                    "text": "3",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/oj2t83it",
+                                      "id": "16",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 12,
+                                  "right": 12,
+                                  "bottom": 12,
+                                  "left": 12
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 114,
+                                  "top": 502,
+                                  "width": 38,
+                                  "height": 38
+                                },
+                                "element": {
+                                  "aid": "sh/vy90je9c",
+                                  "id": "15",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.0.0.4.1",
+                                "kind": "column",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 47
+                                },
+                                "frame": {
+                                  "left": 182,
+                                  "top": 490,
+                                  "width": 731,
+                                  "height": 47
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.0.0.4.1.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 25
+                                    },
+                                    "frame": {
+                                      "left": 182,
+                                      "top": 490,
+                                      "width": 731,
+                                      "height": 25
+                                    },
+                                    "snappedFrame": {
+                                      "left": 182,
+                                      "top": 490,
+                                      "width": 732,
+                                      "height": 26
+                                    },
+                                    "children": [],
+                                    "text": "Operate dashboard",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/d4vmtwra",
+                                      "id": "17",
+                                      "kind": "shape"
+                                    }
+                                  },
+                                  {
+                                    "path": "0.0.1.0.0.4.1.1",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 18
+                                    },
+                                    "frame": {
+                                      "left": 182,
+                                      "top": 519,
+                                      "width": 731,
+                                      "height": 18
+                                    },
+                                    "snappedFrame": {
+                                      "left": 182,
+                                      "top": 520,
+                                      "width": 732,
+                                      "height": 18
+                                    },
+                                    "children": [],
+                                    "text": "Staff search, filter, edit, delete, and complete repair jobs.",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/6hcrmhk3",
+                                      "id": "18",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 0,
+                                  "right": 0,
+                                  "bottom": 0,
+                                  "left": 0
+                                },
+                                "gap": 4,
+                                "effectiveGap": 4,
+                                "justifyOffset": 0,
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 182,
+                                  "top": 490,
+                                  "width": 731,
+                                  "height": 47
+                                },
+                                "items": [
+                                  {
+                                    "path": "0.0.1.0.0.4.1.0",
+                                    "frame": {
+                                      "left": 182,
+                                      "top": 490,
+                                      "width": 731,
+                                      "height": 25
+                                    }
+                                  },
+                                  {
+                                    "path": "0.0.1.0.0.4.1.1",
+                                    "frame": {
+                                      "left": 182,
+                                      "top": 519,
+                                      "width": 731,
+                                      "height": 18
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 18,
+                            "effectiveGap": 18,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 102,
+                              "top": 490,
+                              "width": 811,
+                              "height": 86
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.0.0.4.0",
+                                "frame": {
+                                  "left": 102,
+                                  "top": 490,
+                                  "width": 62,
+                                  "height": 62
+                                }
+                              },
+                              {
+                                "path": "0.0.1.0.0.4.1",
+                                "frame": {
+                                  "left": 182,
+                                  "top": 490,
+                                  "width": 731,
+                                  "height": 47
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.0.0.5",
+                            "kind": "row",
+                            "name": "workflow-step-4",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 86
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 80,
+                              "height": 62
+                            },
+                            "frame": {
+                              "left": 102,
+                              "top": 592,
+                              "width": 811,
+                              "height": 86
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.0.0.5.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 62
+                                  },
+                                  "height": {
+                                    "mode": "fixed",
+                                    "value": 62
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 24,
+                                  "height": 52
+                                },
+                                "frame": {
+                                  "left": 102,
+                                  "top": 592,
+                                  "width": 62,
+                                  "height": 62
+                                },
+                                "snappedFrame": {
+                                  "left": 102,
+                                  "top": 592,
+                                  "width": 62,
+                                  "height": 62
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.0.0.5.0.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 28
+                                    },
+                                    "frame": {
+                                      "left": 114,
+                                      "top": 604,
+                                      "width": 38,
+                                      "height": 28
+                                    },
+                                    "snappedFrame": {
+                                      "left": 114,
+                                      "top": 604,
+                                      "width": 38,
+                                      "height": 28
+                                    },
+                                    "children": [],
+                                    "text": "4",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/rytsvu9k",
+                                      "id": "20",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 12,
+                                  "right": 12,
+                                  "bottom": 12,
+                                  "left": 12
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 114,
+                                  "top": 604,
+                                  "width": 38,
+                                  "height": 38
+                                },
+                                "element": {
+                                  "aid": "sh/z25kb6xk",
+                                  "id": "19",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.0.0.5.1",
+                                "kind": "column",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 47
+                                },
+                                "frame": {
+                                  "left": 182,
+                                  "top": 592,
+                                  "width": 731,
+                                  "height": 47
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.0.0.5.1.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 25
+                                    },
+                                    "frame": {
+                                      "left": 182,
+                                      "top": 592,
+                                      "width": 731,
+                                      "height": 25
+                                    },
+                                    "snappedFrame": {
+                                      "left": 182,
+                                      "top": 592,
+                                      "width": 732,
+                                      "height": 26
+                                    },
+                                    "children": [],
+                                    "text": "Review metrics",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/yd0z6103",
+                                      "id": "21",
+                                      "kind": "shape"
+                                    }
+                                  },
+                                  {
+                                    "path": "0.0.1.0.0.5.1.1",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 18
+                                    },
+                                    "frame": {
+                                      "left": 182,
+                                      "top": 621,
+                                      "width": 731,
+                                      "height": 18
+                                    },
+                                    "snappedFrame": {
+                                      "left": 182,
+                                      "top": 622,
+                                      "width": 732,
+                                      "height": 18
+                                    },
+                                    "children": [],
+                                    "text": "Dashboard recomputes workload and revenue statistics.",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/90je9cvi",
+                                      "id": "22",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 0,
+                                  "right": 0,
+                                  "bottom": 0,
+                                  "left": 0
+                                },
+                                "gap": 4,
+                                "effectiveGap": 4,
+                                "justifyOffset": 0,
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 182,
+                                  "top": 592,
+                                  "width": 731,
+                                  "height": 47
+                                },
+                                "items": [
+                                  {
+                                    "path": "0.0.1.0.0.5.1.0",
+                                    "frame": {
+                                      "left": 182,
+                                      "top": 592,
+                                      "width": 731,
+                                      "height": 25
+                                    }
+                                  },
+                                  {
+                                    "path": "0.0.1.0.0.5.1.1",
+                                    "frame": {
+                                      "left": 182,
+                                      "top": 621,
+                                      "width": 731,
+                                      "height": 18
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 18,
+                            "effectiveGap": 18,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 102,
+                              "top": 592,
+                              "width": 811,
+                              "height": 86
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.0.0.5.0",
+                                "frame": {
+                                  "left": 102,
+                                  "top": 592,
+                                  "width": 62,
+                                  "height": 62
+                                }
+                              },
+                              {
+                                "path": "0.0.1.0.0.5.1",
+                                "frame": {
+                                  "left": 182,
+                                  "top": 592,
+                                  "width": 731,
+                                  "height": 47
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "padding": {
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 0,
+                          "left": 0
+                        },
+                        "gap": 16,
+                        "effectiveGap": 16,
+                        "justifyOffset": 0,
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 102,
+                          "top": 210,
+                          "width": 811,
+                          "height": 736
+                        },
+                        "items": [
+                          {
+                            "path": "0.0.1.0.0.0",
+                            "frame": {
+                              "left": 102,
+                              "top": 210,
+                              "width": 811,
+                              "height": 39
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.1",
+                            "frame": {
+                              "left": 102,
+                              "top": 265,
+                              "width": 110,
+                              "height": 5
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.2",
+                            "frame": {
+                              "left": 102,
+                              "top": 286,
+                              "width": 811,
+                              "height": 86
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.3",
+                            "frame": {
+                              "left": 102,
+                              "top": 388,
+                              "width": 811,
+                              "height": 86
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.4",
+                            "frame": {
+                              "left": 102,
+                              "top": 490,
+                              "width": 811,
+                              "height": 86
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.5",
+                            "frame": {
+                              "left": 102,
+                              "top": 592,
+                              "width": 811,
+                              "height": 86
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "padding": {
+                      "top": 28,
+                      "right": 30,
+                      "bottom": 28,
+                      "left": 30
+                    },
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 102,
+                      "top": 210,
+                      "width": 811,
+                      "height": 736
+                    },
+                    "element": {
+                      "aid": "sh/tcj6tova",
+                      "id": "4",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.1.1",
+                    "kind": "panel",
+                    "name": "customer-flow",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "fill",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 60,
+                      "height": 56
+                    },
+                    "frame": {
+                      "left": 977,
+                      "top": 182,
+                      "width": 871,
+                      "height": 792
+                    },
+                    "snappedFrame": {
+                      "left": 977,
+                      "top": 182,
+                      "width": 871,
+                      "height": 792
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.1.0",
+                        "kind": "column",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "fill",
+                            "value": 1
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 110,
+                          "height": 468
+                        },
+                        "frame": {
+                          "left": 1007,
+                          "top": 210,
+                          "width": 811,
+                          "height": 736
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.1.0.0",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 39
+                            },
+                            "frame": {
+                              "left": 1007,
+                              "top": 210,
+                              "width": 811,
+                              "height": 39
+                            },
+                            "snappedFrame": {
+                              "left": 1008,
+                              "top": 210,
+                              "width": 812,
+                              "height": 40
+                            },
+                            "children": [],
+                            "text": "Customer workflow",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/rmhk3q5o",
+                              "id": "24",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.1",
+                            "kind": "rule",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fixed",
+                                "value": 110
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 5
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 110,
+                              "height": 5
+                            },
+                            "frame": {
+                              "left": 1007,
+                              "top": 265,
+                              "width": 110,
+                              "height": 5
+                            },
+                            "snappedFrame": {
+                              "left": 1008,
+                              "top": 266,
+                              "width": 110,
+                              "height": 5
+                            },
+                            "children": [],
+                            "weight": 5,
+                            "element": {
+                              "aid": "sh/y1kre1w7",
+                              "id": "25",
+                              "kind": "shape"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.2",
+                            "kind": "row",
+                            "name": "workflow-step-1",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 86
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 80,
+                              "height": 62
+                            },
+                            "frame": {
+                              "left": 1007,
+                              "top": 286,
+                              "width": 811,
+                              "height": 86
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.1.0.2.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 62
+                                  },
+                                  "height": {
+                                    "mode": "fixed",
+                                    "value": 62
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 24,
+                                  "height": 52
+                                },
+                                "frame": {
+                                  "left": 1007,
+                                  "top": 286,
+                                  "width": 62,
+                                  "height": 62
+                                },
+                                "snappedFrame": {
+                                  "left": 1007,
+                                  "top": 286,
+                                  "width": 62,
+                                  "height": 62
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.2.0.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 28
+                                    },
+                                    "frame": {
+                                      "left": 1019,
+                                      "top": 298,
+                                      "width": 38,
+                                      "height": 28
+                                    },
+                                    "snappedFrame": {
+                                      "left": 1020,
+                                      "top": 298,
+                                      "width": 38,
+                                      "height": 28
+                                    },
+                                    "children": [],
+                                    "text": "1",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/g7adsji5",
+                                      "id": "27",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 12,
+                                  "right": 12,
+                                  "bottom": 12,
+                                  "left": 12
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 1019,
+                                  "top": 298,
+                                  "width": 38,
+                                  "height": 38
+                                },
+                                "element": {
+                                  "aid": "sh/9s36hcrm",
+                                  "id": "26",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.2.1",
+                                "kind": "column",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 47
+                                },
+                                "frame": {
+                                  "left": 1087,
+                                  "top": 286,
+                                  "width": 731,
+                                  "height": 47
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.2.1.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 25
+                                    },
+                                    "frame": {
+                                      "left": 1087,
+                                      "top": 286,
+                                      "width": 731,
+                                      "height": 25
+                                    },
+                                    "snappedFrame": {
+                                      "left": 1088,
+                                      "top": 286,
+                                      "width": 732,
+                                      "height": 26
+                                    },
+                                    "children": [],
+                                    "text": "Receive code",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/nih4byhg",
+                                      "id": "28",
+                                      "kind": "shape"
+                                    }
+                                  },
+                                  {
+                                    "path": "0.0.1.1.0.2.1.1",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 18
+                                    },
+                                    "frame": {
+                                      "left": 1087,
+                                      "top": 315,
+                                      "width": 731,
+                                      "height": 18
+                                    },
+                                    "snappedFrame": {
+                                      "left": 1088,
+                                      "top": 316,
+                                      "width": 732,
+                                      "height": 18
+                                    },
+                                    "children": [],
+                                    "text": "Garage shares a generated RM tracking code.",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/yxobm58z",
+                                      "id": "29",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 0,
+                                  "right": 0,
+                                  "bottom": 0,
+                                  "left": 0
+                                },
+                                "gap": 4,
+                                "effectiveGap": 4,
+                                "justifyOffset": 0,
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 1087,
+                                  "top": 286,
+                                  "width": 731,
+                                  "height": 47
+                                },
+                                "items": [
+                                  {
+                                    "path": "0.0.1.1.0.2.1.0",
+                                    "frame": {
+                                      "left": 1087,
+                                      "top": 286,
+                                      "width": 731,
+                                      "height": 25
+                                    }
+                                  },
+                                  {
+                                    "path": "0.0.1.1.0.2.1.1",
+                                    "frame": {
+                                      "left": 1087,
+                                      "top": 315,
+                                      "width": 731,
+                                      "height": 18
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 18,
+                            "effectiveGap": 18,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 1007,
+                              "top": 286,
+                              "width": 811,
+                              "height": 86
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.1.0.2.0",
+                                "frame": {
+                                  "left": 1007,
+                                  "top": 286,
+                                  "width": 62,
+                                  "height": 62
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.2.1",
+                                "frame": {
+                                  "left": 1087,
+                                  "top": 286,
+                                  "width": 731,
+                                  "height": 47
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.1.0.3",
+                            "kind": "row",
+                            "name": "workflow-step-2",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 86
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 80,
+                              "height": 62
+                            },
+                            "frame": {
+                              "left": 1007,
+                              "top": 388,
+                              "width": 811,
+                              "height": 86
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.1.0.3.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 62
+                                  },
+                                  "height": {
+                                    "mode": "fixed",
+                                    "value": 62
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 24,
+                                  "height": 52
+                                },
+                                "frame": {
+                                  "left": 1007,
+                                  "top": 388,
+                                  "width": 62,
+                                  "height": 62
+                                },
+                                "snappedFrame": {
+                                  "left": 1007,
+                                  "top": 388,
+                                  "width": 62,
+                                  "height": 62
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.3.0.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 28
+                                    },
+                                    "frame": {
+                                      "left": 1019,
+                                      "top": 400,
+                                      "width": 38,
+                                      "height": 28
+                                    },
+                                    "snappedFrame": {
+                                      "left": 1020,
+                                      "top": 400,
+                                      "width": 38,
+                                      "height": 28
+                                    },
+                                    "children": [],
+                                    "text": "2",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/lszqtcj6",
+                                      "id": "31",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 12,
+                                  "right": 12,
+                                  "bottom": 12,
+                                  "left": 12
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 1019,
+                                  "top": 400,
+                                  "width": 38,
+                                  "height": 38
+                                },
+                                "element": {
+                                  "aid": "sh/s72x4nap",
+                                  "id": "30",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.3.1",
+                                "kind": "column",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 47
+                                },
+                                "frame": {
+                                  "left": 1087,
+                                  "top": 388,
+                                  "width": 731,
+                                  "height": 47
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.3.1.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 25
+                                    },
+                                    "frame": {
+                                      "left": 1087,
+                                      "top": 388,
+                                      "width": 731,
+                                      "height": 25
+                                    },
+                                    "snappedFrame": {
+                                      "left": 1088,
+                                      "top": 388,
+                                      "width": 732,
+                                      "height": 26
+                                    },
+                                    "children": [],
+                                    "text": "Open portal",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/a5gbq1or",
+                                      "id": "32",
+                                      "kind": "shape"
+                                    }
+                                  },
+                                  {
+                                    "path": "0.0.1.1.0.3.1.1",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 18
+                                    },
+                                    "frame": {
+                                      "left": 1087,
+                                      "top": 417,
+                                      "width": 731,
+                                      "height": 18
+                                    },
+                                    "snappedFrame": {
+                                      "left": 1088,
+                                      "top": 418,
+                                      "width": 732,
+                                      "height": 18
+                                    },
+                                    "children": [],
+                                    "text": "Customer switches from login page to CustomerTrack.",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/3m94fu18",
+                                      "id": "33",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 0,
+                                  "right": 0,
+                                  "bottom": 0,
+                                  "left": 0
+                                },
+                                "gap": 4,
+                                "effectiveGap": 4,
+                                "justifyOffset": 0,
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 1087,
+                                  "top": 388,
+                                  "width": 731,
+                                  "height": 47
+                                },
+                                "items": [
+                                  {
+                                    "path": "0.0.1.1.0.3.1.0",
+                                    "frame": {
+                                      "left": 1087,
+                                      "top": 388,
+                                      "width": 731,
+                                      "height": 25
+                                    }
+                                  },
+                                  {
+                                    "path": "0.0.1.1.0.3.1.1",
+                                    "frame": {
+                                      "left": 1087,
+                                      "top": 417,
+                                      "width": 731,
+                                      "height": 18
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 18,
+                            "effectiveGap": 18,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 1007,
+                              "top": 388,
+                              "width": 811,
+                              "height": 86
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.1.0.3.0",
+                                "frame": {
+                                  "left": 1007,
+                                  "top": 388,
+                                  "width": 62,
+                                  "height": 62
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.3.1",
+                                "frame": {
+                                  "left": 1087,
+                                  "top": 388,
+                                  "width": 731,
+                                  "height": 47
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.1.0.4",
+                            "kind": "row",
+                            "name": "workflow-step-3",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 86
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 80,
+                              "height": 62
+                            },
+                            "frame": {
+                              "left": 1007,
+                              "top": 490,
+                              "width": 811,
+                              "height": 86
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.1.0.4.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 62
+                                  },
+                                  "height": {
+                                    "mode": "fixed",
+                                    "value": 62
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 24,
+                                  "height": 52
+                                },
+                                "frame": {
+                                  "left": 1007,
+                                  "top": 490,
+                                  "width": 62,
+                                  "height": 62
+                                },
+                                "snappedFrame": {
+                                  "left": 1007,
+                                  "top": 490,
+                                  "width": 62,
+                                  "height": 62
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.4.0.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 28
+                                    },
+                                    "frame": {
+                                      "left": 1019,
+                                      "top": 502,
+                                      "width": 38,
+                                      "height": 28
+                                    },
+                                    "snappedFrame": {
+                                      "left": 1020,
+                                      "top": 502,
+                                      "width": 38,
+                                      "height": 28
+                                    },
+                                    "children": [],
+                                    "text": "3",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/h4byhgn2",
+                                      "id": "35",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 12,
+                                  "right": 12,
+                                  "bottom": 12,
+                                  "left": 12
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 1019,
+                                  "top": 502,
+                                  "width": 38,
+                                  "height": 38
+                                },
+                                "element": {
+                                  "aid": "sh/sji5snel",
+                                  "id": "34",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.4.1",
+                                "kind": "column",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 47
+                                },
+                                "frame": {
+                                  "left": 1087,
+                                  "top": 490,
+                                  "width": 731,
+                                  "height": 47
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.4.1.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 25
+                                    },
+                                    "frame": {
+                                      "left": 1087,
+                                      "top": 490,
+                                      "width": 731,
+                                      "height": 25
+                                    },
+                                    "snappedFrame": {
+                                      "left": 1088,
+                                      "top": 490,
+                                      "width": 732,
+                                      "height": 26
+                                    },
+                                    "children": [],
+                                    "text": "Lookup repair",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/adsji5sn",
+                                      "id": "36",
+                                      "kind": "shape"
+                                    }
+                                  },
+                                  {
+                                    "path": "0.0.1.1.0.4.1.1",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 18
+                                    },
+                                    "frame": {
+                                      "left": 1087,
+                                      "top": 519,
+                                      "width": 731,
+                                      "height": 18
+                                    },
+                                    "snappedFrame": {
+                                      "left": 1088,
+                                      "top": 520,
+                                      "width": 732,
+                                      "height": 18
+                                    },
+                                    "children": [],
+                                    "text": "Frontend calls the public tracking endpoint.",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/3ylc7u54",
+                                      "id": "37",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 0,
+                                  "right": 0,
+                                  "bottom": 0,
+                                  "left": 0
+                                },
+                                "gap": 4,
+                                "effectiveGap": 4,
+                                "justifyOffset": 0,
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 1087,
+                                  "top": 490,
+                                  "width": 731,
+                                  "height": 47
+                                },
+                                "items": [
+                                  {
+                                    "path": "0.0.1.1.0.4.1.0",
+                                    "frame": {
+                                      "left": 1087,
+                                      "top": 490,
+                                      "width": 731,
+                                      "height": 25
+                                    }
+                                  },
+                                  {
+                                    "path": "0.0.1.1.0.4.1.1",
+                                    "frame": {
+                                      "left": 1087,
+                                      "top": 519,
+                                      "width": 731,
+                                      "height": 18
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 18,
+                            "effectiveGap": 18,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 1007,
+                              "top": 490,
+                              "width": 811,
+                              "height": 86
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.1.0.4.0",
+                                "frame": {
+                                  "left": 1007,
+                                  "top": 490,
+                                  "width": 62,
+                                  "height": 62
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.4.1",
+                                "frame": {
+                                  "left": 1087,
+                                  "top": 490,
+                                  "width": 731,
+                                  "height": 47
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "path": "0.0.1.1.0.5",
+                            "kind": "row",
+                            "name": "workflow-step-4",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 86
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 80,
+                              "height": 62
+                            },
+                            "frame": {
+                              "left": 1007,
+                              "top": 592,
+                              "width": 811,
+                              "height": 86
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.1.0.5.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fixed",
+                                    "value": 62
+                                  },
+                                  "height": {
+                                    "mode": "fixed",
+                                    "value": 62
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 24,
+                                  "height": 52
+                                },
+                                "frame": {
+                                  "left": 1007,
+                                  "top": 592,
+                                  "width": 62,
+                                  "height": 62
+                                },
+                                "snappedFrame": {
+                                  "left": 1007,
+                                  "top": 592,
+                                  "width": 62,
+                                  "height": 62
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.5.0.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 28
+                                    },
+                                    "frame": {
+                                      "left": 1019,
+                                      "top": 604,
+                                      "width": 38,
+                                      "height": 28
+                                    },
+                                    "snappedFrame": {
+                                      "left": 1020,
+                                      "top": 604,
+                                      "width": 38,
+                                      "height": 28
+                                    },
+                                    "children": [],
+                                    "text": "4",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/hgn29gr2",
+                                      "id": "39",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 12,
+                                  "right": 12,
+                                  "bottom": 12,
+                                  "left": 12
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 1019,
+                                  "top": 604,
+                                  "width": 38,
+                                  "height": 38
+                                },
+                                "element": {
+                                  "aid": "sh/svu9knih",
+                                  "id": "38",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.5.1",
+                                "kind": "column",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 47
+                                },
+                                "frame": {
+                                  "left": 1087,
+                                  "top": 592,
+                                  "width": 731,
+                                  "height": 47
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.5.1.0",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 25
+                                    },
+                                    "frame": {
+                                      "left": 1087,
+                                      "top": 592,
+                                      "width": 731,
+                                      "height": 25
+                                    },
+                                    "snappedFrame": {
+                                      "left": 1088,
+                                      "top": 592,
+                                      "width": 732,
+                                      "height": 26
+                                    },
+                                    "children": [],
+                                    "text": "Read status",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/x0nuxc3y",
+                                      "id": "40",
+                                      "kind": "shape"
+                                    }
+                                  },
+                                  {
+                                    "path": "0.0.1.1.0.5.1.1",
+                                    "kind": "text",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "hug"
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 18
+                                    },
+                                    "frame": {
+                                      "left": 1087,
+                                      "top": 621,
+                                      "width": 731,
+                                      "height": 18
+                                    },
+                                    "snappedFrame": {
+                                      "left": 1088,
+                                      "top": 622,
+                                      "width": 732,
+                                      "height": 18
+                                    },
+                                    "children": [],
+                                    "text": "Progress steps summarize received, in progress, and completed states.",
+                                    "transform": "none",
+                                    "element": {
+                                      "aid": "sh/4fu18jqh",
+                                      "id": "41",
+                                      "kind": "shape"
+                                    }
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 0,
+                                  "right": 0,
+                                  "bottom": 0,
+                                  "left": 0
+                                },
+                                "gap": 4,
+                                "effectiveGap": 4,
+                                "justifyOffset": 0,
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 1087,
+                                  "top": 592,
+                                  "width": 731,
+                                  "height": 47
+                                },
+                                "items": [
+                                  {
+                                    "path": "0.0.1.1.0.5.1.0",
+                                    "frame": {
+                                      "left": 1087,
+                                      "top": 592,
+                                      "width": 731,
+                                      "height": 25
+                                    }
+                                  },
+                                  {
+                                    "path": "0.0.1.1.0.5.1.1",
+                                    "frame": {
+                                      "left": 1087,
+                                      "top": 621,
+                                      "width": 731,
+                                      "height": 18
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "gap": 18,
+                            "effectiveGap": 18,
+                            "justifyOffset": 0,
+                            "align": "start",
+                            "justify": "start",
+                            "contentFrame": {
+                              "left": 1007,
+                              "top": 592,
+                              "width": 811,
+                              "height": 86
+                            },
+                            "items": [
+                              {
+                                "path": "0.0.1.1.0.5.0",
+                                "frame": {
+                                  "left": 1007,
+                                  "top": 592,
+                                  "width": 62,
+                                  "height": 62
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.5.1",
+                                "frame": {
+                                  "left": 1087,
+                                  "top": 592,
+                                  "width": 731,
+                                  "height": 47
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "padding": {
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 0,
+                          "left": 0
+                        },
+                        "gap": 16,
+                        "effectiveGap": 16,
+                        "justifyOffset": 0,
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 1007,
+                          "top": 210,
+                          "width": 811,
+                          "height": 736
+                        },
+                        "items": [
+                          {
+                            "path": "0.0.1.1.0.0",
+                            "frame": {
+                              "left": 1007,
+                              "top": 210,
+                              "width": 811,
+                              "height": 39
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.1",
+                            "frame": {
+                              "left": 1007,
+                              "top": 265,
+                              "width": 110,
+                              "height": 5
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.2",
+                            "frame": {
+                              "left": 1007,
+                              "top": 286,
+                              "width": 811,
+                              "height": 86
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.3",
+                            "frame": {
+                              "left": 1007,
+                              "top": 388,
+                              "width": 811,
+                              "height": 86
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.4",
+                            "frame": {
+                              "left": 1007,
+                              "top": 490,
+                              "width": 811,
+                              "height": 86
+                            }
+                          },
+                          {
+                            "path": "0.0.1.1.0.5",
+                            "frame": {
+                              "left": 1007,
+                              "top": 592,
+                              "width": 811,
+                              "height": 86
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "padding": {
+                      "top": 28,
+                      "right": 30,
+                      "bottom": 28,
+                      "left": 30
+                    },
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 1007,
+                      "top": 210,
+                      "width": 811,
+                      "height": 736
+                    },
+                    "element": {
+                      "aid": "sh/gfmlkjm1",
+                      "id": "23",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 34,
+                "effectiveGap": 34,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 72,
+                  "top": 182,
+                  "width": 1776,
+                  "height": 792
+                },
+                "items": [
+                  {
+                    "path": "0.0.1.0",
+                    "frame": {
+                      "left": 72,
+                      "top": 182,
+                      "width": 871,
+                      "height": 792
+                    }
+                  },
+                  {
+                    "path": "0.0.1.1",
+                    "frame": {
+                      "left": 977,
+                      "top": 182,
+                      "width": 871,
+                      "height": 792
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.0.2",
+                "kind": "row",
+                "name": "footer",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 94,
+                  "height": 14
+                },
+                "frame": {
+                  "left": 72,
+                  "top": 1008,
+                  "width": 1776,
+                  "height": 14
+                },
+                "children": [
+                  {
+                    "path": "0.0.2.0",
+                    "kind": "text",
+                    "name": "footer-left",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 14
+                    },
+                    "frame": {
+                      "left": 72,
+                      "top": 1008,
+                      "width": 1682,
+                      "height": 14
+                    },
+                    "snappedFrame": {
+                      "left": 72,
+                      "top": 1008,
+                      "width": 1682,
+                      "height": 14
+                    },
+                    "children": [],
+                    "text": "Repair Manager website report",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/fu18jqh0",
+                      "id": "42",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.2.1",
+                    "kind": "text",
+                    "name": "footer-page",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fixed",
+                        "value": 70
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 70,
+                      "height": 14
+                    },
+                    "frame": {
+                      "left": 1778,
+                      "top": 1008,
+                      "width": 70,
+                      "height": 14
+                    },
+                    "snappedFrame": {
+                      "left": 1778,
+                      "top": 1008,
+                      "width": 70,
+                      "height": 14
+                    },
+                    "children": [],
+                    "text": "7/10",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/m94fu18j",
+                      "id": "43",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 24,
+                "effectiveGap": 24,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 72,
+                  "top": 1008,
+                  "width": 1776,
+                  "height": 14
+                },
+                "items": [
+                  {
+                    "path": "0.0.2.0",
+                    "frame": {
+                      "left": 72,
+                      "top": 1008,
+                      "width": 1682,
+                      "height": 14
+                    }
+                  },
+                  {
+                    "path": "0.0.2.1",
+                    "frame": {
+                      "left": 1778,
+                      "top": 1008,
+                      "width": 70,
+                      "height": 14
+                    }
+                  }
+                ]
+              }
+            ],
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "gap": 34,
+            "effectiveGap": 34,
+            "justifyOffset": 0,
+            "align": "start",
+            "justify": "start",
+            "contentFrame": {
+              "left": 72,
+              "top": 58,
+              "width": 1776,
+              "height": 964
+            },
+            "items": [
+              {
+                "path": "0.0.0",
+                "frame": {
+                  "left": 72,
+                  "top": 58,
+                  "width": 1776,
+                  "height": 90
+                }
+              },
+              {
+                "path": "0.0.1",
+                "frame": {
+                  "left": 72,
+                  "top": 182,
+                  "width": 1776,
+                  "height": 792
+                }
+              },
+              {
+                "path": "0.0.2",
+                "frame": {
+                  "left": 72,
+                  "top": 1008,
+                  "width": 1776,
+                  "height": 14
+                }
+              }
+            ]
+          }
+        ],
+        "padding": {
+          "top": 58,
+          "right": 72,
+          "bottom": 58,
+          "left": 72
+        },
+        "align": "start",
+        "justify": "start",
+        "contentFrame": {
+          "left": 72,
+          "top": 58,
+          "width": 1776,
+          "height": 964
+        },
+        "element": {
+          "aid": "sh/0je9cvix",
+          "id": "1",
+          "kind": "shape"
+        }
+      }
+    }
+  ]
+}

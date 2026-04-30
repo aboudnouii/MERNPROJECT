@@ -1,0 +1,55 @@
+\contentsline {chapter}{Executive Summary}{1}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Project Background}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Project Aim}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Objectives}{2}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Website Overview}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Application Identity}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Target Users}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Primary Features}{4}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Technology Stack}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Frontend}{6}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Backend}{6}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Database}{6}{section.3.3}%
+\contentsline {chapter}{\numberline {4}System Architecture}{8}{chapter.4}%
+\contentsline {section}{\numberline {4.1}High-Level Architecture}{8}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Architecture Explanation}{8}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Folder Structure}{8}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Frontend Design and Functionality}{10}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Main React Application}{10}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Authentication Interface}{10}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Dashboard}{10}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Repair Job Form}{11}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Repair List and Repair Cards}{11}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Customer Tracking Portal}{11}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Backend Design and Functionality}{13}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Server Setup}{13}{section.6.1}%
+\contentsline {section}{\numberline {6.2}CORS Configuration}{13}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Authentication Routes}{13}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Repair Routes}{14}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Route Protection}{14}{section.6.5}%
+\contentsline {chapter}{\numberline {7}Database Design}{15}{chapter.7}%
+\contentsline {section}{\numberline {7.1}User Model}{15}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Repair Job Model}{15}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Tracking Code Generation}{16}{section.7.3}%
+\contentsline {chapter}{\numberline {8}User Workflows}{17}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Staff Workflow}{17}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Customer Workflow}{17}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Security Analysis}{18}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Current Security Strengths}{18}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Security Improvements}{18}{section.9.2}%
+\contentsline {chapter}{\numberline {10}Deployment}{19}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Frontend Deployment}{19}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Backend Deployment}{19}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Database Deployment}{19}{section.10.3}%
+\contentsline {chapter}{\numberline {11}Testing and Quality}{20}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Suggested Test Plan}{20}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Current Quality Observations}{20}{section.11.2}%
+\contentsline {chapter}{\numberline {12}Limitations}{21}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Future Enhancements}{22}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Conclusion}{23}{chapter.14}%
+\contentsline {chapter}{\numberline {A}Key Files Reviewed}{24}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Local Run Commands}{25}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Backend}{25}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Frontend}{25}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Production Build}{25}{section.B.3}%
