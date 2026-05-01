@@ -60,6 +60,13 @@ npm install --legacy-peer-deps
 npm install ajv@8 ajv-keywords@5 --save-dev
 npm start
 ```
+<h3>OR</h3>
+
+```bash
+cd frontend
+npm install --forces
+npm start
+```
 
 Open:
 
