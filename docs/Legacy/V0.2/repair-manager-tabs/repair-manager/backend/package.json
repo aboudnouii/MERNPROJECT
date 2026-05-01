@@ -1,0 +1,22 @@
+{
+  "name": "repair-manager-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Repair Manager MERN application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["mern", "express", "mongodb", "repair-manager"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
